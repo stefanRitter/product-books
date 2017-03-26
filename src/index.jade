@@ -1,0 +1,40 @@
+- var name        = "Product Books"
+- var url         = "https://product-books.com"
+- var logoUrl     = "https://product-books.com/logo.png"
+- var title       = "Product Books - The ultimate directory of books for product managers and product people."
+- var description = "The ultimate directory of books for product managers and product people - find the most recommended books on product management and building products (from business to design)."
+
+doctype
+html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
+  
+    head(prefix="og: http://ogp.me/ns#")
+        include shared/_meta.jade
+        
+    body
+        include shared/_title.jade
+        include shared/_alerts.jade
+        
+        .clear-both
+
+        main
+            h1 Product Books
+            
+            a.button(href="#proposebook") Propose a book
+
+            .clear-both
+            each data, title in books
+                .book
+                    img(src=data.logo alt=title)
+                    span= title
+            .clear-both
+
+        footer
+            p#proposebook
+                | Missing a book?
+                
+            p(style="margin-top:3em;")
+                em
+                    | Built by 
+                    a(href="https://stefanritter.com/") Stefan Ritter
+        
+        include shared/_scripts.jade
