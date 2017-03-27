@@ -1,0 +1,38 @@
+{
+    "Business Adventures": {
+        "author": "",
+        "url-us": "//amazon.com",
+        "url-uk": "//amazon.co.uk",
+        "url-de": "//amazon.de",
+        "url-fr": "//amazon.fr",
+        "logo": "logo.png",
+        "tags": ["business & strategy"],
+        "recommends": [""],
+        "goodreads": [4, 200],
+        "amazon": [4, 200]
+    },
+    "Design of Everyday Things": {
+        "author": "",
+        "url-us": "//amazon.com",
+        "url-uk": "//amazon.co.uk",
+        "url-de": "//amazon.de",
+        "url-fr": "//amazon.fr",
+        "logo": "logo.png",
+        "tags": ["design"],
+        "recommends": [""],
+        "goodreads": [4, 200],
+        "amazon": [4, 200]
+    },
+    "Don't make me think": {
+        "author": "",
+        "url-us": "//amazon.com",
+        "url-uk": "//amazon.co.uk",
+        "url-de": "//amazon.de",
+        "url-fr": "//amazon.fr",
+        "logo": "logo.png",
+        "tags": ["design"],
+        "recommends": [""],
+        "goodreads": [4, 200],
+        "amazon": [4, 200]
+    }
+}

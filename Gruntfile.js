@@ -29,7 +29,7 @@ module.exports = function (grunt) {
                         pretty: true,
                         data: function (dest, src) {
                             var books = require('fs').readFileSync(
-                                __dirname+'/src/books.json',
+                                __dirname+'/data/books.json',
                                 {encoding: 'utf-8'}
                             );
                             return { books: JSON.parse(books) }
@@ -69,7 +69,7 @@ module.exports = function (grunt) {
                     tasks: ['stylus', 'jade']
                 },
                 html: {
-                    files: ['src/**/*.jade'],
+                    files: ['src/**/*.jade', 'data/**/*.*'],
                     tasks: ['jade']
                 }
             },
@@ -84,7 +84,7 @@ module.exports = function (grunt) {
         }
     );
 
-    grunt.registerTask('build',   ['copy', 'stylus', 'jade']);
+    grunt.registerTask('build',   ['copy',  'stylus', 'jade']);
     grunt.registerTask('publish', ['build', 'gh-pages']);
     grunt.registerTask('default', ['build', 'watch']);
 };

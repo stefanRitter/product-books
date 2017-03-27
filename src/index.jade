@@ -17,24 +17,33 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
         .clear-both
 
         main
-            h1 Product Books
+            .clear-both
+            .clear-both
             
-            a.button(href="#proposebook") Propose a book
+            h3 coming soon 🚀
+            
+            .clear-both
+            .clear-both
+            
+            //
+                a.button(href="#proposebook") Propose a book
 
-            .clear-both
-            each data, title in books
-                .book
-                    img(src=data.logo alt=title)
-                    span= title
-            .clear-both
+                .clear-both
+                each data, title in books
+                    .book
+                        img(src=data.logo alt=title)
+                        span= title
+                .clear-both
 
         footer
-            p#proposebook
-                | Missing a book?
+            //
+                p#proposebook
+                    | Missing a book?
                 
-            p(style="margin-top:3em;")
-                em
-                    | Built by 
-                    a(href="https://stefanritter.com/") Stefan Ritter
+            // 
+                p(style="margin-top:3em;")
+                    em
+                        | Built by 
+                        a(href="https://stefanritter.com/") Stefan Ritter
         
         include shared/_scripts.jade
