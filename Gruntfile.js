@@ -41,7 +41,13 @@ module.exports = function (grunt) {
                         dest: 'dist',
                         expand: true,
                         ext: '.html'
-                    } ]
+                    },{
+                        cwd: 'data/',
+                        src: ['editor.jade'],
+                        dest: 'data',
+                        expand: true,
+                        ext: '.html'
+                    }]
                 }
             },
 

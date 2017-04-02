@@ -1,0 +1,26 @@
+doctype
+html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
+  
+    head(prefix="og: http://ogp.me/ns#")
+        meta(charset="utf-8")
+        title Product Books Editor
+        
+    body
+        form
+            button(type="button" name="button" id="transform") Output JSON
+        
+        textarea#output
+            | output the json blob here
+
+        each data, title in books
+            .book
+                img(src=data.logo alt=title)
+                span= title
+                    
+        script(type="text/javascript" src="/dist/zepto.min.js")
+        script.
+            var books = {};
+            
+            $('#transform').click(function () {
+                $('#transform').text(JSON.stringify(books));
+            });
