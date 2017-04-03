@@ -1,0 +1,10 @@
+#newBookForm input {
+    display: block;
+    margin: 10px auto;
+    font-size: 14px;
+    width: 98%;
+}
+#newBookForm {
+    max-width: 800px;
+    margin: 20px auto;
+}

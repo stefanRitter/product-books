@@ -7,9 +7,7 @@
         "url-fr": "//amazon.fr",
         "logo": "logo.png",
         "tags": ["business & strategy"],
-        "recommends": [""],
-        "goodreads": [4, 200],
-        "amazon": [4, 200]
+        "recommends": [""]
     },
     "Design of Everyday Things": {
         "author": "",

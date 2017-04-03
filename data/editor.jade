@@ -4,23 +4,88 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
     head(prefix="og: http://ogp.me/ns#")
         meta(charset="utf-8")
         title Product Books Editor
-        
+        link(rel="stylesheet", type="text/css", href="editor.css")
+    
     body
-        form
-            button(type="button" name="button" id="transform") Output JSON
-        
-        textarea#output
-            | output the json blob here
+        form#newBookForm
+            //- basic info
+            input(type="text", placeholder="title", name="title")
+            input(type="text", placeholder="author", name="author")
+            input(type="text", placeholder="logo", name="logo")
+            input(type="text", placeholder="tags, tags", name="tags")
 
-        each data, title in books
-            .book
-                img(src=data.logo alt=title)
-                span= title
+            //- amazon urls
+            input(type="url", placeholder="urlUS", name="urlUS")
+            input(type="url", placeholder="urlUK", name="urlUK")
+            input(type="url", placeholder="urlDE", name="urlDE")
+            input(type="url", placeholder="urlFR", name="urlFR")
+            
+            //- recommends
+            input(type="text", placeholder="recommends, recommends", name="recommends")
+            
+            //- amazon ratings
+            input(type="number", placeholder="Amazon rating", name="amazonRating")
+            input(type="number", placeholder="Amazon # ratings", name="amazonNumRatings")
+            
+            //- goodreads ratings
+            input(type="number", placeholder="Goodreads rating", name="goodreadsRating")
+            input(type="number", placeholder="Goodreads # ratings", name="goodreadsNumRatings")
+            
+            button(type="button" name="button" id="addBook") Add Book
+        
+        hr
+
+        #outputSection
+            button(type="button" name="button" id="transform") Output JSON
+            textarea#output
+                | output the json blob here
+        hr
+    
+        #books
+            each data, title in books
+                .book
+                    img(src=data.logo alt=title)
+                    span.title= title
                     
         script(type="text/javascript" src="/dist/zepto.min.js")
         script.
-            var books = {};
+            var books = [];
+            var newBook = {};
             
-            $('#transform').click(function () {
-                $('#transform').text(JSON.stringify(books));
+            // populate books array
+            $('.book').each(function (i, el) {
+                console.log(el);
             });
+            
+            // listen to buttons
+            $('#transform').on('click', function (e) {
+                e.preventDefault();
+                $('#output').text(JSON.stringify(books));
+            });
+            
+            // add or edit book
+            $('#addBook').on('click', function (e) {
+                e.preventDefault();
+                $("#newBookForm").serializeArray().forEach(function (keyValue) {
+                    newBook[keyValue.name] = keyValue.value;
+                });
+                
+                var newTags = [];
+                newBook.tags.split(',').forEach(function (tag) {
+                    if (tag) newTags.push(tag.truncate());
+                });
+                newBook.tags = newTags;
+                
+                var recommends = [];
+                newBook.recommends.split(',').forEach(function (tag) {
+                    if (tag) recommends.push(tag.truncate());
+                });
+                newBook.recommends = recommends;
+                
+                newBook.score = newBook.recommends.length;
+                console.log(newBook);
+                
+                books.push(newBook);
+            });
+            
+            
