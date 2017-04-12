@@ -1,233 +1,283 @@
-[
-    {
-        "title": "Business Adventures",
-        "author": "John Brooks",
-        "logo": "businessadventures.png",
-        "tags": ["business"],
-        "recommends": ["Bill Gates"]
-    },
-    {
-        "title": "High Output Management",
-        "author": "Andy Grove",
-        "logo": "highoutput.png",
-        "tags": ["leadership"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "The Mythical Man-Month",
-        "author": "Frederick Brooks",
-        "logo": "mythicalmanmonth.png",
-        "tags": ["leadership"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Sprint",
-        "author": "Jake Knapp",
-        "logo": "sprint.png",
-        "tags": ["design"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "The Innovator's Dilemma",
-        "author": "Clayton Christensen",
-        "logo": "innovatorsdilemma.png",
-        "tags": ["business"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "The Halo Effect",
-        "author": "Phil Rosenzweig",
-        "logo": "haloeffect.png",
-        "tags": ["leadership"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "The Lean Startup",
-        "author": "Eric Ries",
-        "logo": "leanstartup.png",
-        "tags": ["business"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Crossing the Chasm",
-        "author": "Geoffrey Moore",
-        "logo": "crossingthechasm.png",
-        "tags": ["growth"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "The Innovator's Solution",
-        "author": "Clayton Christensen",
-        "logo": "innovatorssolution.png",
-        "tags": ["business"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Steve Jobs",
-        "author": "Walter Isaacson",
-        "logo": "stevejobs.png",
-        "tags": ["biography"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Work Rules!",
-        "author": "Laszlo Bock",
-        "logo": "workrules.png",
-        "tags": ["leadership"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Getting Things Done",
-        "author": "David Allen",
-        "logo": "gettingthingsdone.png",
-        "tags": ["leadership"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Predictably Irrational",
-        "author": "Dan Ariely",
-        "logo": "predictablyirrational.png",
-        "tags": ["empathy"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Nudge",
-        "author": "Richard Thaler and Cass Sunstein",
-        "logo": "nudge.png",
-        "tags": ["empathy"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Team of Rivals",
-        "author": "Doris Kearns Goodwin",
-        "logo": "teamofrivals.png",
-        "tags": ["leadership"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "How to Lie with Statistics",
-        "author": "Darrell Huff",
-        "logo": "liewithstatistics.png",
-        "tags": ["analytics"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Inspired",
-        "author": "Marty Cagan",
-        "logo": "inspired.png",
-        "tags": ["product management"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Don't Make Me Think",
-        "author": "Steve Krug",
-        "logo": "dontmakemethink.png",
-        "tags": ["design"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "The Hard Thing About Hard Things",
-        "author": "Ben Horowitz",
-        "logo": "hardthingabouthardthings.png",
-        "tags": ["leadership"],
-        "recommends": ["Ken Norton", "Ben Horowitz"]
-    },
-    {
-        "title": "Creativity, Inc",
-        "author": "Ed Catmull",
-        "logo": "creativityinc.png",
-        "tags": ["leadership"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "The Lean Product Playbook",
-        "author": "Dan Olsen",
-        "logo": "leanproductplaybook.png",
-        "tags": ["product management"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Getting To Yes",
-        "author": "Roger Fisher and William Ury",
-        "logo": "gettingtoyes.png",
-        "tags": ["communication"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "The Design of Everyday Things",
-        "author": "Donald Norman",
-        "logo": "designofeverydaythings.png",
-        "tags": ["design"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "In The Plex: How Google Thinks, Works, and Shapes Our Lives",
-        "author": "Steven Levy",
-        "logo": "intheplex.png",
-        "tags": ["product management"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "On Writing",
-        "author": "Stephen King",
-        "logo": "onwriting.png",
-        "tags": ["communication"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Thinking, Fast and Slow",
-        "author": "Daniel Kahneman",
-        "logo": "thinkingfastandslow.png",
-        "tags": ["empathy"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Positioning",
-        "author": "Al Ries and Jack Trout",
-        "logo": "positioning.png",
-        "tags": ["growth"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Meaningful: the Story of Ideas that Fly",
-        "author": "Bernadette Jiwa",
-        "logo": "meaningful.png",
-        "tags": ["communication"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Competing Against Luck",
-        "author": "Clayton Christensen",
-        "logo": "competingagainstluck.png",
-        "tags": ["business"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Hooked: How to Build Habit-Forming Products",
-        "author": "Nir Eyal",
-        "logo": "hooked.png",
-        "tags": ["design"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Yes to the Mess: Surprising Leadership Lessons from Jazz",
-        "author": "Frank Barrett",
-        "logo": "yestothemess.png",
-        "tags": ["Leadership"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Inside the Tornado",
-        "author": "Geoffrey Moore",
-        "logo": "insidethetornado.png",
-        "tags": ["growth"],
-        "recommends": ["Ken Norton"]
-    },
-    {
-        "title": "Quiet: The Power of Introverts",
-        "author": "Susan Cain",
-        "logo": "quiet.png",
-        "tags": ["empathy"],
-        "recommends": ["Ken Norton"]
-    }
-]
+[{
+    "title": "The Innovator's Dilemma",
+    "author": "Clayton Christensen",
+    "logo": "innovatorsdilemma.png",
+    "tags": ["business"],
+    "recommends": ["Ken Norton", "Ben Horowitz", "Steve Jobs", "Noah Weiss", "Simon Cross"]
+}, {
+    "title": "The Hard Thing About Hard Things",
+    "author": "Ben Horowitz",
+    "logo": "hardthingabouthardthings.png",
+    "tags": ["leadership"],
+    "recommends": ["Ken Norton", "Ben Horowitz", "Noah Weiss", "Simon Cross"]
+}, {
+    "title": "High Output Management",
+    "author": "Andy Grove",
+    "logo": "highoutput.png",
+    "tags": ["leadership"],
+    "recommends": ["Ken Norton", "Julie Zhuo", "Noah Weiss", "Simon Cross"]
+}, {
+    "title": "The Design of Everyday Things",
+    "author": "Donald Norman",
+    "logo": "designofeverydaythings.png",
+    "tags": ["design"],
+    "recommends": ["Ken Norton", "Julie Zhuo", "Noah Weiss", "Simon Cross"]
+}, {
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "logo": "leanstartup.png",
+    "tags": ["business"],
+    "recommends": ["Ken Norton", "Noah Weiss", "Simon Cross"]
+}, {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "logo": "thinkingfastandslow.png",
+    "tags": ["empathy"],
+    "recommends": ["Ken Norton", "Julie Zhuo", "Simon Cross"]
+}, {
+    "title": "The Innovator's Solution",
+    "author": "Clayton Christensen",
+    "logo": "innovatorssolution.png",
+    "tags": ["business"],
+    "recommends": ["Ken Norton", "Noah Weiss"]
+}, {
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "logo": "stevejobs.png",
+    "tags": ["biography"],
+    "recommends": ["Ken Norton", "Simon Cross"]
+}, {
+    "title": "Getting Things Done",
+    "author": "David Allen",
+    "logo": "gettingthingsdone.png",
+    "tags": ["leadership"],
+    "recommends": ["Ken Norton", "Simon Cross"]
+}, {
+    "title": "Predictably Irrational",
+    "author": "Dan Ariely",
+    "logo": "predictablyirrational.png",
+    "tags": ["empathy"],
+    "recommends": ["Ken Norton", "Simon Cross"]
+}, {
+    "title": "Only the Paranoid Survive",
+    "author": "Andy Grove",
+    "logo": "paranoidsurvive.png",
+    "tags": ["business"],
+    "recommends": ["Ben Horowitz", "Steve Jobs"]
+}, {
+    "title": "Don't Make Me Think",
+    "author": "Steve Krug",
+    "logo": "dontmakemethink.png",
+    "tags": ["design"],
+    "recommends": ["Ken Norton", "Simon Cross"]
+}, {
+    "title": "The Everything Store: Jeff Bezos and the Age of Amazon",
+    "author": "Brad Stone",
+    "logo": "everythingstore.png",
+    "tags": ["bibliography"],
+    "recommends": ["Noah Weiss", "Simon Cross"]
+}, {
+    "title": "Creativity, Inc",
+    "author": "Ed Catmull",
+    "logo": "creativityinc.png",
+    "tags": ["leadership"],
+    "recommends": ["Ken Norton", "Simon Cross"]
+}, {
+    "title": "Getting To Yes & Getting Past No",
+    "author": "Roger Fisher and William Ury",
+    "logo": "gettingtoyes.png",
+    "tags": ["communication"],
+    "recommends": ["Ken Norton", "Simon Cross"]
+}, {
+    "title": "My Years with General Motors",
+    "author": "Alfred Sloan",
+    "logo": "myyearswithgm.png",
+    "tags": ["business"],
+    "recommends": ["Ben Horowitz", "Bill Gates"]
+}, {
+    "title": "In The Plex: How Google Thinks, Works, and Shapes Our Lives",
+    "author": "Steven Levy",
+    "logo": "intheplex.png",
+    "tags": ["product management"],
+    "recommends": ["Ken Norton", "Noah Weiss"]
+}, {
+    "title": "On Writing",
+    "author": "Stephen King",
+    "logo": "onwriting.png",
+    "tags": ["communication"],
+    "recommends": ["Ken Norton", "Noah Weiss"]
+}, {
+    "title": "Crossing the Chasm",
+    "author": "Geoffrey Moore",
+    "logo": "crossingthechasm.png",
+    "tags": ["growth"],
+    "recommends": ["Ken Norton", "Simon Cross"]
+}, {
+    "title": "Inside the Tornado",
+    "author": "Geoffrey Moore",
+    "logo": "insidethetornado.png",
+    "tags": ["growth"],
+    "recommends": ["Ken Norton", "Steve Jobs"]
+}, {
+    "title": "Inspired",
+    "author": "Marty Cagan",
+    "logo": "inspired.png",
+    "tags": ["product management"],
+    "recommends": ["Ken Norton", "Noah Weiss"]
+}, {
+    "title": "The Halo Effect",
+    "author": "Phil Rosenzweig",
+    "logo": "haloeffect.png",
+    "tags": ["leadership"],
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Mindset: The New Psychology of Success",
+    "author": "Carol S. Dweck",
+    "logo": "mindset.png",
+    "tags": ["empathy"],
+    "recommends": ["Julie Zhuo"]
+}, {
+    "title": "Fooled by Randomness",
+    "author": "Nassim Nicholas Taleb",
+    "logo": "fooledbyrandomness.png",
+    "tags": ["empathy"],
+    "recommends": ["Ben Horowitz"]
+}, {
+    "title": "Business Adventures",
+    "author": "John Brooks",
+    "logo": "businessadventures.png",
+    "tags": ["business"],
+    "recommends": ["Bill Gates"]
+}, {
+    "title": "The Lean Product Playbook",
+    "author": "Dan Olsen",
+    "logo": "leanproductplaybook.png",
+    "tags": ["product management"],
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "The Mythical Man-Month",
+    "author": "Frederick Brooks",
+    "logo": "mythicalmanmonth.png",
+    "tags": ["leadership"],
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Work Rules!",
+    "author": "Laszlo Bock",
+    "logo": "workrules.png",
+    "tags": ["leadership"],
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Sprint",
+    "author": "Jake Knapp",
+    "logo": "sprint.png",
+    "tags": ["design"],
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Focus",
+    "author": "Al Ries",
+    "logo": "focus.png",
+    "tags": ["growth"],
+    "recommends": ["Ben Horowitz"]
+}, {
+    "title": "Nudge",
+    "author": "Richard Thaler and Cass Sunstein",
+    "logo": "nudge.png",
+    "tags": ["empathy"],
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Positioning",
+    "author": "Al Ries and Jack Trout",
+    "logo": "positioning.png",
+    "tags": ["growth"],
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Meaningful: the Story of Ideas that Fly",
+    "author": "Bernadette Jiwa",
+    "logo": "meaningful.png",
+    "tags": ["communication"],
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Competing Against Luck",
+    "author": "Clayton Christensen",
+    "logo": "competingagainstluck.png",
+    "tags": ["business"],
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Hooked: How to Build Habit-Forming Products",
+    "author": "Nir Eyal",
+    "logo": "hooked.png",
+    "tags": ["design"],
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Yes to the Mess: Surprising Leadership Lessons from Jazz",
+    "author": "Frank Barrett",
+    "logo": "yestothemess.png",
+    "tags": ["Leadership"],
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Team of Rivals",
+    "author": "Doris Kearns Goodwin",
+    "logo": "teamofrivals.png",
+    "tags": ["leadership"],
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Quiet: The Power of Introverts",
+    "author": "Susan Cain",
+    "logo": "quiet.png",
+    "tags": ["empathy"],
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Venture Deals: Be Smarter Than Your Lawyer and Venture Capitalist",
+    "author": "Brad Feld and Jason Mendelson",
+    "logo": "venturedeals.png",
+    "tags": ["business"],
+    "recommends": ["Noah Weiss"]
+}, {
+    "title": "How to Win Friends and Influence People",
+    "author": "Dale Carnegie",
+    "logo": "howtowinfriends.png",
+    "tags": ["communication"],
+    "recommends": ["Noah Weiss"]
+}, {
+    "title": "Naked Statistics",
+    "author": "Charles Wheelan",
+    "logo": "nakedstatistics.png",
+    "tags": ["analytics"],
+    "recommends": ["Noah Weiss"]
+}, {
+    "title": "The Visual Display of Quantitative Information",
+    "author": "Edward R. Tufte",
+    "logo": "visualdisplay.png",
+    "tags": ["analytics"],
+    "recommends": ["Noah Weiss"]
+}, {
+    "title": "Beautiful Evidence",
+    "author": "Edward R. Tufte",
+    "logo": "beautifulevidence.png",
+    "tags": ["analytics"],
+    "recommends": ["Noah Weiss"]
+}, {
+    "title": "How to Lie with Statistics",
+    "author": "Darrell Huff",
+    "logo": "liewithstatistics.png",
+    "tags": ["analytics"],
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "What Every BODY is Saying",
+    "author": "Joe Navarro",
+    "logo": "whateverybody.png",
+    "tags": ["empathy"],
+    "recommends": ["Simon Cross"]
+}, {
+    "title": "Ogilvy on Advertising",
+    "author": "David Ogilvy",
+    "logo": "ogliviyonads.png",
+    "tags": ["growth"],
+    "recommends": ["Alex Schultz"]
+}, {
+    "title": "Viral Loop",
+    "author": "Adam Penenberg",
+    "logo": "viralloop.png",
+    "tags": ["growth"],
+    "recommends": ["Alex Schultz"]
+}]

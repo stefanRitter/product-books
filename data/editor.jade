@@ -41,21 +41,33 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
                 | output the json blob here
         hr
     
-        #books
-            each data, title in books
+        #books(data-books=JSON.stringify(books))
+            each book in books
                 .book
-                    img(src=data.logo alt=title)
-                    span.title= title
+                    // img(src=book.logo alt=book.title)
+                    p=book.title
+                    p=book.author
+                    p=book.logo
+                    .tags
+                        each tag in book.tags
+                            span=tag
+                    .recommenders
+                        each name in book.recommends
+                            span=name
                     
         script(type="text/javascript" src="/dist/zepto.min.js")
         script.
-            var books = [];
+            var books = $('#books').data('books');
             var newBook = {};
             
-            // populate books array
-            $('.book').each(function (i, el) {
-                console.log(el);
+            books.sort(function (a, b) {
+                return b.recommends.length - a.recommends.length;
             });
+            console.log(JSON.stringify(books));
+            
+            //- $('#books .book').each(function (i, el) {
+            //-     console.log(el);
+            //- });
             
             // listen to buttons
             $('#transform').on('click', function (e) {

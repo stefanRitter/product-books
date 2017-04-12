@@ -2,7 +2,7 @@
 - var url         = "https://product-books.com"
 - var logoUrl     = "https://product-books.com/logo.png"
 - var title       = "Product Books - The most recommended books for product managers from around the web."
-- var description = "The ultimate directory of books for product managers - find the most recommended books on product management and building products (from business to design)."
+- var description = "Product Books - The most recommended books for product managers from around the web."
 
 doctype
 html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
@@ -18,7 +18,7 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
 
         main
             h2(style="font-size: 19px;font-weight: 100;")
-                | recommendations from: 
+                | recommendations combined from: 
                 each link,name in recommenders
                     a(href=link target="_blank" style="color:black")=name
                     | , 
@@ -40,14 +40,9 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
             
             .clear-both
 
-        footer
-            p#proposebook
-                | Missing a book?
-                
-            // 
-                p(style="margin-top:3em;")
-                    em
-                        | Built by 
-                        a(href="https://stefanritter.com/") Stefan Ritter
+        footer#proposebook
+            p
+                | Missing a book? 
+                a(href="mailto:help@product-books.com") Please email us your suggestion!
         
         include shared/_scripts.jade
