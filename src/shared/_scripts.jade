@@ -6,4 +6,26 @@ script.
     ga('create', 'UA-96355762-1', 'auto');
     ga('send', 'pageview');
 
+
 script(type="application/javascript", src="zepto.min.js")
+script.
+    var $books = $('.book'),
+        $tagFilter = $('.tag-filter'),
+        activeFilter = '';
+    
+    $('.js-filter').on('click', function (e) {
+        var $el = $(this),
+            tag = $el.data('filter');
+                
+        if (activeFilter === tag) {
+            $books.show();
+            $tagFilter.removeClass('active');
+        } else {
+            $tagFilter.removeClass('active');
+            $el.addClass("active");
+            $books.hide();
+            $('.book.'+tag).show();
+        }
+        
+        activeFilter = tag;
+    });

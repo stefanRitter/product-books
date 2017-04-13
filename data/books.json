@@ -5,23 +5,24 @@
     "tags": ["business"],
     "recommends": ["Ken Norton", "Ben Horowitz", "Steve Jobs", "Noah Weiss", "Simon Cross"]
 }, {
-    "title": "The Hard Thing About Hard Things",
-    "author": "Ben Horowitz",
-    "logo": "hardthingabouthardthings.png",
-    "tags": ["leadership"],
-    "recommends": ["Ken Norton", "Ben Horowitz", "Noah Weiss", "Simon Cross"]
-}, {
     "title": "High Output Management",
     "author": "Andy Grove",
     "logo": "highoutput.png",
     "tags": ["leadership"],
-    "recommends": ["Ken Norton", "Julie Zhuo", "Noah Weiss", "Simon Cross"]
+    "recommends": ["Ken Norton", "Julie Zhuo", "Noah Weiss", "Simon Cross", "Tomasz Tunguz"]
 }, {
     "title": "The Design of Everyday Things",
     "author": "Donald Norman",
     "logo": "designofeverydaythings.png",
     "tags": ["design"],
-    "recommends": ["Ken Norton", "Julie Zhuo", "Noah Weiss", "Simon Cross"]
+    "recommends": ["Ken Norton", "Julie Zhuo", "Noah Weiss", "Simon Cross"],
+    "amazonus": "http://amzn.to/2nHbhtV"
+}, {
+    "title": "The Hard Thing About Hard Things",
+    "author": "Ben Horowitz",
+    "logo": "hardthingabouthardthings.png",
+    "tags": ["leadership"],
+    "recommends": ["Ken Norton", "Ben Horowitz", "Noah Weiss", "Simon Cross"]
 }, {
     "title": "The Lean Startup",
     "author": "Eric Ries",
@@ -35,17 +36,11 @@
     "tags": ["empathy"],
     "recommends": ["Ken Norton", "Julie Zhuo", "Simon Cross"]
 }, {
-    "title": "The Innovator's Solution",
-    "author": "Clayton Christensen",
-    "logo": "innovatorssolution.png",
-    "tags": ["business"],
-    "recommends": ["Ken Norton", "Noah Weiss"]
-}, {
     "title": "Steve Jobs",
     "author": "Walter Isaacson",
     "logo": "stevejobs.png",
     "tags": ["biography"],
-    "recommends": ["Ken Norton", "Simon Cross"]
+    "recommends": ["Ken Norton", "Simon Cross", "Bill Gates"]
 }, {
     "title": "Getting Things Done",
     "author": "David Allen",
@@ -71,11 +66,11 @@
     "tags": ["design"],
     "recommends": ["Ken Norton", "Simon Cross"]
 }, {
-    "title": "The Everything Store: Jeff Bezos and the Age of Amazon",
-    "author": "Brad Stone",
-    "logo": "everythingstore.png",
-    "tags": ["bibliography"],
-    "recommends": ["Noah Weiss", "Simon Cross"]
+    "title": "The Innovator's Solution",
+    "author": "Clayton Christensen",
+    "logo": "innovatorssolution.png",
+    "tags": ["business"],
+    "recommends": ["Ken Norton", "Noah Weiss"]
 }, {
     "title": "Creativity, Inc",
     "author": "Ed Catmull",
@@ -98,7 +93,7 @@
     "title": "In The Plex: How Google Thinks, Works, and Shapes Our Lives",
     "author": "Steven Levy",
     "logo": "intheplex.png",
-    "tags": ["product management"],
+    "tags": ["product-management"],
     "recommends": ["Ken Norton", "Noah Weiss"]
 }, {
     "title": "On Writing",
@@ -122,26 +117,32 @@
     "title": "Inspired",
     "author": "Marty Cagan",
     "logo": "inspired.png",
-    "tags": ["product management"],
+    "tags": ["product-management"],
     "recommends": ["Ken Norton", "Noah Weiss"]
+}, {
+    "title": "Mindset: The New Psychology of Success",
+    "author": "Carol S. Dweck",
+    "logo": "mindset.png",
+    "tags": ["leadership"],
+    "recommends": ["Julie Zhuo", "Bill Gates"]
+}, {
+    "title": "How to Lie with Statistics",
+    "author": "Darrell Huff",
+    "logo": "liewithstatistics.png",
+    "tags": ["analytics"],
+    "recommends": ["Ken Norton", "Bill Gates"]
+}, {
+    "title": "The Everything Store: Jeff Bezos and the Age of Amazon",
+    "author": "Brad Stone",
+    "logo": "everythingstore.png",
+    "tags": ["biography"],
+    "recommends": ["Noah Weiss", "Simon Cross"]
 }, {
     "title": "The Halo Effect",
     "author": "Phil Rosenzweig",
     "logo": "haloeffect.png",
     "tags": ["leadership"],
     "recommends": ["Ken Norton"]
-}, {
-    "title": "Mindset: The New Psychology of Success",
-    "author": "Carol S. Dweck",
-    "logo": "mindset.png",
-    "tags": ["empathy"],
-    "recommends": ["Julie Zhuo"]
-}, {
-    "title": "Fooled by Randomness",
-    "author": "Nassim Nicholas Taleb",
-    "logo": "fooledbyrandomness.png",
-    "tags": ["empathy"],
-    "recommends": ["Ben Horowitz"]
 }, {
     "title": "Business Adventures",
     "author": "John Brooks",
@@ -152,7 +153,7 @@
     "title": "The Lean Product Playbook",
     "author": "Dan Olsen",
     "logo": "leanproductplaybook.png",
-    "tags": ["product management"],
+    "tags": ["product-management"],
     "recommends": ["Ken Norton"]
 }, {
     "title": "The Mythical Man-Month",
@@ -257,11 +258,11 @@
     "tags": ["analytics"],
     "recommends": ["Noah Weiss"]
 }, {
-    "title": "How to Lie with Statistics",
-    "author": "Darrell Huff",
-    "logo": "liewithstatistics.png",
-    "tags": ["analytics"],
-    "recommends": ["Ken Norton"]
+    "title": "Viral Loop",
+    "author": "Adam Penenberg",
+    "logo": "viralloop.png",
+    "tags": ["growth"],
+    "recommends": ["Alex Schultz"]
 }, {
     "title": "What Every BODY is Saying",
     "author": "Joe Navarro",
@@ -275,9 +276,9 @@
     "tags": ["growth"],
     "recommends": ["Alex Schultz"]
 }, {
-    "title": "Viral Loop",
-    "author": "Adam Penenberg",
-    "logo": "viralloop.png",
-    "tags": ["growth"],
-    "recommends": ["Alex Schultz"]
+    "title": "Fooled by Randomness",
+    "author": "Nassim Nicholas Taleb",
+    "logo": "fooledbyrandomness.png",
+    "tags": ["empathy"],
+    "recommends": ["Ben Horowitz"]
 }]

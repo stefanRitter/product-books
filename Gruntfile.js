@@ -32,13 +32,8 @@ module.exports = function (grunt) {
                                 __dirname+'/data/books.json',
                                 {encoding: 'utf-8'}
                             );
-                            var recommenders = require('fs').readFileSync(
-                                __dirname+'/data/recommenders.json',
-                                {encoding: 'utf-8'}
-                            );
                             return {
-                                books: JSON.parse(books),
-                                recommenders:  JSON.parse(recommenders)
+                                books: JSON.parse(books)
                             };
                         }
                     },

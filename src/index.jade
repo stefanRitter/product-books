@@ -5,7 +5,7 @@
 - var description = "Product Books - The most recommended books for product managers from around the web."
 
 doctype
-html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
+html(lang="en" itemtype="http://schema.org/WebPage" itemscope)
   
     head(prefix="og: http://ogp.me/ns#")
         include shared/_meta.jade
@@ -17,27 +17,68 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
         .clear-both
 
         main
-            h2(style="font-size: 19px;font-weight: 100;")
-                | recommendations combined from: 
-                each link,name in recommenders
-                    a(href=link target="_blank" style="color:black")=name
+            include shared/_recommenders.jade
+            
+            .clear-both
+            p
+                strong
+                    =books.length
+                    |  BOOKS LISTED &nbsp;&nbsp; 
+                a.button(href="#proposebook") Propose a book
+                    
+            .filters
+                h3(style="text-align:left")
+                    | filter by topic: 
+                    br
+                    span.tag-filter.js-filter(data-filter="analytics") analytics &amp; data
                     | , 
+                    span.tag-filter.js-filter(data-filter="empathy") empathy
+                    | , 
+                    span.tag-filter.js-filter(data-filter="leadership") leadership
+                    | , 
+                    span.tag-filter.js-filter(data-filter="growth") marketing &amp; growth
+                    | , 
+                    span.tag-filter.js-filter(data-filter="business") business
+                    | , 
+                    span.tag-filter.js-filter(data-filter="product-management") product management
+                    | , 
+                    span.tag-filter.js-filter(data-filter="design") design
+                    | , 
+                    span.tag-filter.js-filter(data-filter="communication") communication
+                    | , 
+                    span.tag-filter.js-filter(data-filter="biography") biographies
             
-            .clear-both
-            a.button(href="#proposebook") Propose a book
-            .clear-both
+            #books
+                each book in books
+                    - var classes = book.tags[0]
+                    each name in book.recommends
+                        - classes += ' '+name.replace(' ', '-')
                     
-            h3
-                | filter by topic: 
-                br
-                | leadership, growth, business, product management, empathy, design, communication, bibliography
-                    
+                    .book(class=classes)
+                        a(href=book.amazonus)
+                            img(src=book.logo alt=book.title)
+                        
+                        .tags
+                            .tag.js-filter(data-filter=book.tags[0])=book.tags[0]
 
-            each book in books
-                .book
-                    img(src=book.logo alt=book.title)
-                    span=book.title
-            
+                        .book-title
+                            a(href=book.amazonus)
+                                =book.title
+                                br
+                                span.author
+                                    | by 
+                                    =book.author
+
+                        .recommenders
+                            =book.recommends.length
+                            if book.recommends.length > 1
+                                |  recommendations:
+                                br
+                            else 
+                                |  recommendation: 
+                            each name in book.recommends
+                                span.js-filter(data-filter=name.replace(' ', '-'))=name
+
             .clear-both
 
         footer#proposebook
