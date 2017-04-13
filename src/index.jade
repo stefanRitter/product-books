@@ -20,6 +20,7 @@ html(lang="en" itemtype="http://schema.org/WebPage" itemscope)
             include shared/_recommenders.jade
             
             .clear-both
+            .clear-both
             p
                 strong
                     =books.length
@@ -27,7 +28,7 @@ html(lang="en" itemtype="http://schema.org/WebPage" itemscope)
                 a.button(href="#proposebook") Propose a book
                     
             .filters
-                h3(style="text-align:left")
+                h3
                     | filter by topic: 
                     br
                     span.tag-filter.js-filter(data-filter="analytics") analytics &amp; data
@@ -55,14 +56,14 @@ html(lang="en" itemtype="http://schema.org/WebPage" itemscope)
                         - classes += ' '+name.replace(' ', '-')
                     
                     .book(class=classes)
-                        a(href=book.amazonus)
+                        a.img-link(href=book.amazonus target="_blank")
                             img(src=book.logo alt=book.title)
-                        
+                            span buy on amazon.com
                         .tags
                             .tag.js-filter(data-filter=book.tags[0])=book.tags[0]
 
                         .book-title
-                            a(href=book.amazonus)
+                            a(href=book.amazonus target="_blank")
                                 =book.title
                                 br
                                 span.author

@@ -60,14 +60,21 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
             var books = $('#books').data('books');
             var newBook = {};
             
+            books.forEach(function (b) {
+                b.recommends.sort();
+            });
+            books.sort(function (a, b) {
+                return a.title.localeCompare(b.title);
+            });
             books.sort(function (a, b) {
                 return b.recommends.length - a.recommends.length;
             });
             console.log(JSON.stringify(books));
             
-            //- $('#books .book').each(function (i, el) {
-            //-     console.log(el);
-            //- });
+            /*
+            $('#books .book').each(function (i, el) {
+                console.log(el);
+            });
             
             // listen to buttons
             $('#transform').on('click', function (e) {
@@ -99,5 +106,4 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
                 
                 books.push(newBook);
             });
-            
-            
+            */

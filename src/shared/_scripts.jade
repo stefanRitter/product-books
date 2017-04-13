@@ -20,12 +20,12 @@ script.
         if (activeFilter === tag) {
             $books.show();
             $tagFilter.removeClass('active');
+            activeFilter = '';
         } else {
+            activeFilter = tag;
             $tagFilter.removeClass('active');
             $el.addClass("active");
             $books.hide();
             $('.book.'+tag).show();
         }
-        
-        activeFilter = tag;
     });

@@ -7,8 +7,8 @@ typeheight = "(max-height:375px)"
 
 
 // colors
-blue = white
-gray = #2fb3da
+pbBlue = #2fb3da
+pbRed = #da2f92
 
 
 // general
@@ -36,8 +36,7 @@ h3
     margin 0
 
 main
-    margin auto
-    max-width 1400px
+    margin: auto;
     text-align center
 
 
@@ -54,8 +53,8 @@ main
 
 // components
 .title
-  color blue
-  background gray
+  color White
+  background pbBlue
   text-align center
   margin-top: 0
   h2, p
@@ -126,8 +125,8 @@ main
     appearance none
     border 0
     padding 10px 20px
-    background gray
-    color blue
+    background pbBlue
+    color White
     text-decoration none
     font-size 1em
     font-weight bold
@@ -158,7 +157,8 @@ main
     margin:auto
 
 #books
-    margin: 0
+    margin auto
+    max-width 1400px
     padding: 0
     vertical-align: top;
 
@@ -171,9 +171,15 @@ main
     a
         text-decoration: none;
         color: inherit;
+    .img-link span
+        display: block;
+        margin-top: -5px
+        color: darkgray
+        font-weight: 100
+        font-size: 10px
     .book-title
         margin 0
-        color gray
+        color pbBlue
         font-size: 18px
         height: 70px
         vertical-align: middle;
@@ -184,6 +190,7 @@ main
         width auto
         height: 230px
     .recommenders
+        margin-top: 4px;
         font-weight: 100;
         font-size: 12px
         height: 50px
@@ -193,24 +200,31 @@ main
             cursor: pointer;
             margin: 5px
     .tags
-        margin 6px 0 8px
+        margin 8px 0 8px
         text-align: center;
         .tag
             display: inline-block;
             background-color: pink
             color: white
-            padding: 4px;
+            padding: 4px 6px;
             border-radius: 3px
             font-size: 12px
             cursor: pointer;
 
 .filters
-    max-width: 1200px
-    margin: 20px auto;
-    padding: 15px
+    margin: 30px auto 20px auto;
+    h3
+        padding: 15px
+        text-align: left
+        max-width: 1200px
+        margin: auto;
 
 .tag-filter
     cursor: pointer;
+    display: inline-block;
+    background: lightblue;
+    padding: 0 6px;
+    margin: 2px 0;
     &.active
         text-decoration: underline;
 
@@ -219,12 +233,12 @@ footer
     text-align center
     padding 3em 2em 8em 2em
     min-height 70%
-    background gray
+    background pbBlue
     color White
     a
-        color blue
+        color White
         font-weight bold
         text-decoration none
-        border-bottom 2px solid blue
+        border-bottom 2px solid White
     h2
         font-size 2em
