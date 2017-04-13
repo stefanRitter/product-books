@@ -341,4 +341,32 @@
     "tags": ["analytics"],
     "amazonus": "http://amzn.to/2ouMJDd",
     "recommends": ["Noah Weiss"]
+}, {
+    "title": "To Sell Is Human",
+    "author": "Daniel H. Pink",
+    "logo": "tosellishuman.png",
+    "tags": ["growth"],
+    "amazonus": "http://amzn.to/2p09K2i",
+    "recommends": ["Tomasz Tunguz"]
+}, {
+    "title": "Predictable Revenue",
+    "author": "Aaron Ross and Marylou Tyler",
+    "logo": "predictablerevenue.png",
+    "tags": ["growth"],
+    "amazonus": "http://amzn.to/2pwQTIi",
+    "recommends": ["Tomasz Tunguz"]
+}, {
+    "title": "The Four Steps to the Epiphany",
+    "author": "Steve Blank",
+    "logo": "fourstepstoepiphany.png",
+    "tags": ["product-management"],
+    "amazonus": "http://amzn.to/2oqQxDJ",
+    "recommends": ["Ryan Hoover"]
+}, {
+    "title": "How to Measure Anything",
+    "author": "Douglas Hubbard",
+    "logo": "howtomeasure.png",
+    "tags": ["analytics"],
+    "amazonus": "http://amzn.to/2oqOmA4",
+    "recommends": ["Simon Cross"]
 }]
