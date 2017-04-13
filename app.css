@@ -20,7 +20,6 @@ h1 {
 }
 h2 {
   font-size: 1.5em;
-  padding: 0 0.3em;
 }
 h3 {
   font-size: 1.3em;
@@ -28,7 +27,6 @@ h3 {
 }
 main {
   margin: auto;
-  max-width: 1200px;
   text-align: center;
 }
 .phone-only {
@@ -44,7 +42,7 @@ main {
   padding-top: 2em;
 }
 .title {
-  color: #fff;
+  color: White;
   background: #2fb3da;
   text-align: center;
   margin-top: 0;
@@ -144,7 +142,7 @@ main {
   border: 0;
   padding: 10px 20px;
   background: #2fb3da;
-  color: #fff;
+  color: White;
   text-decoration: none;
   font-size: 1em;
   font-weight: bold;
@@ -172,56 +170,95 @@ main {
     margin: 0;
   }
 }
-.book {
-  float: left;
-  width: 22%;
-  margin: 1em 1.5%;
-  text-decoration: none;
+.recommenders-links {
+  font-size: 19px;
+  font-weight: 100;
+  text-align: left;
+  max-width: 1200px;
+  margin: auto;
 }
-.book h1 {
-  margin-bottom: 0.5em;
+#books {
+  margin: auto;
+  max-width: 1400px;
+  padding: 0;
+  vertical-align: top;
+}
+.book {
+  display: inline-block;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  margin: 15px;
 }
 .book a {
-  cursor: pointer;
-}
-.book a:hover {
+  text-decoration: none;
   color: inherit;
-  background: #007acc;
 }
-.book .nav-links a:hover {
-  background: none;
+.book .img-link span {
+  display: block;
+  margin-top: -5px;
+  color: #a9a9a9;
+  font-weight: 100;
+  font-size: 10px;
 }
-.book span {
-  display: inline-block;
-  margin-top: 0.5em;
+.book .book-title {
+  margin: 0;
   color: #2fb3da;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+  font-size: 18px;
+  height: 70px;
+  vertical-align: middle;
+}
+.book .book-title .author {
+  font-weight: 100;
+  font-size: 14px;
 }
 .book img {
-  width: 80%;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+  width: auto;
+  height: 230px;
 }
-.book:hover img {
-  -webkit-filter: grayscale(0);
-  -moz-filter: grayscale(0);
-  filter: grayscale(0);
+.book .recommenders {
+  margin-top: 4px;
+  font-weight: 100;
+  font-size: 12px;
+  height: 50px;
 }
-@media (max-width: 980px) {
-  .book {
-    width: 30%;
-  }
+.book .recommenders span {
+  display: inline-block;
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 5px;
 }
-@media (max-width: 460px) {
-  .book {
-    width: 47%;
-  }
+.book .tags {
+  margin: 8px 0 8px;
+  text-align: center;
+}
+.book .tags .tag {
+  display: inline-block;
+  background-color: #ffc0cb;
+  color: #fff;
+  padding: 4px 6px;
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.filters {
+  margin: 30px auto 20px auto;
+}
+.filters h3 {
+  padding: 15px;
+  text-align: left;
+  max-width: 1200px;
+  margin: auto;
+}
+.tag-filter {
+  cursor: pointer;
+  display: inline-block;
+  background: #add8e6;
+  padding: 0 6px;
+  margin: 2px 0;
+}
+.tag-filter.active {
+  text-decoration: underline;
 }
 footer {
   clear: both;
@@ -232,10 +269,10 @@ footer {
   color: White;
 }
 footer a {
-  color: #fff;
+  color: White;
   font-weight: bold;
   text-decoration: none;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid White;
 }
 footer h2 {
   font-size: 2em;
