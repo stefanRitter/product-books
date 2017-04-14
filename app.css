@@ -72,6 +72,8 @@ main {
   margin: 0;
   padding: 1em 10px 0.5em;
   vertical-align: middle;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 @media (max-width: 460px) {
   .title h1 {
