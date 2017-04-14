@@ -93,17 +93,17 @@
     "recommends": ["Teresa Torres"]
 }, {
     "title": "Business Model Generation",
-    "author": "",
-    "amazonus": "",
-    "logo": "",
+    "author": "Alexander Osterwalder and Yves Pigneur",
+    "amazonus": "http://amzn.to/2ot9gyr",
+    "logo": "businessmodelgen.png",
     "tags": ["business"],
     "quoracount": 4,
     "recommends": ["Tomasz Tunguz"]
 }, {
     "title": "Decisive",
-    "author": "",
-    "amazonus": "",
-    "logo": "",
+    "author": "Chip Heath and Dan Heath",
+    "amazonus": "http://amzn.to/2p2C6ck",
+    "logo": "decisive.png",
     "tags": ["leadership"],
     "quoracount": 4,
     "recommends": ["Teresa Torres"]
@@ -141,17 +141,17 @@
     "recommends": ["Ken Norton"]
 }, {
     "title": "Made to Stick",
-    "author": "",
-    "amazonus": "",
-    "logo": "",
+    "author": "Chip Heath and Dan Heath",
+    "amazonus": "http://amzn.to/2p2tJgA",
+    "logo": "madetostick.png",
     "tags": ["design"],
     "quoracount": 3,
     "recommends": ["Simon Cross"]
 }, {
     "title": "The Principles of Product Development Flow",
-    "author": "",
-    "amazonus": "",
-    "logo": "",
+    "author": "Donald Reinertsen",
+    "amazonus": "http://amzn.to/2oeBg7f",
+    "logo": "productflow.png",
     "tags": ["product-management"],
     "quoracount": 4,
     "recommends": []
@@ -213,9 +213,9 @@
     "recommends": ["Alex Schultz"]
 }, {
     "title": "Freakonomics",
-    "author": "",
-    "amazonus": "",
-    "logo": "",
+    "author": "Steven Levitt and Stephen Dubner",
+    "amazonus": "http://amzn.to/2p2nppw",
+    "logo": "freakonomics.png",
     "tags": ["business"],
     "quoracount": 2,
     "recommends": ["Simon Cross"]
@@ -245,9 +245,9 @@
     "recommends": ["Ken Norton"]
 }, {
     "title": "Drive",
-    "author": "",
-    "amazonus": "",
-    "logo": "",
+    "author": "Daniel H. Pink",
+    "amazonus": "http://amzn.to/2p2Jswa",
+    "logo": "drive.png",
     "tags": ["communication"],
     "quoracount": 3,
     "recommends": []
@@ -255,7 +255,7 @@
     "title": "Running Lean",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["business"],
     "quoracount": 3,
     "recommends": []
@@ -263,7 +263,7 @@
     "title": "Agile Product Management with Scrum",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["product-management"],
     "quoracount": 3,
     "recommends": []
@@ -271,7 +271,7 @@
     "title": "Getting Real",
     "author": "37 Signals",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["leadership"],
     "quoracount": 3,
     "recommends": []
@@ -375,7 +375,7 @@
     "title": "Where good ideas come from",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["leadership"],
     "quoracount": 1,
     "recommends": ["Bill Gates"]
@@ -383,7 +383,7 @@
     "title": "It’s your Ship",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["leadership"],
     "quoracount": 1,
     "recommends": ["Simon Cross"]
@@ -399,7 +399,7 @@
     "title": "The score takes care of itself",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["leadership"],
     "quoracount": 1,
     "recommends": ["Simon Cross"]
@@ -431,7 +431,7 @@
     "title": "What Customers Want",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["empathy"],
     "quoracount": 2,
     "recommends": []
@@ -439,7 +439,7 @@
     "title": "Lean Analytics",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["analytics"],
     "quoracount": 2,
     "recommends": []
@@ -447,7 +447,7 @@
     "title": "The Five Dysfunctions of a Team",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["leadership"],
     "quoracount": 2,
     "recommends": []
@@ -455,7 +455,7 @@
     "title": "Innovation Games",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["design"],
     "quoracount": 2,
     "recommends": []
@@ -463,7 +463,7 @@
     "title": "The Inmates Are Running the Asylum",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["design"],
     "quoracount": 2,
     "recommends": []
@@ -471,7 +471,7 @@
     "title": "Dealing with Darwin",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["leadership"],
     "quoracount": 2,
     "recommends": []
@@ -479,7 +479,7 @@
     "title": "Emotional Design",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["design"],
     "quoracount": 2,
     "recommends": []
@@ -583,7 +583,7 @@
     "title": "Stragetic Storytelling",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["communication"],
     "quoracount": 1,
     "recommends": []
@@ -591,7 +591,7 @@
     "title": "Exponential Organization",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["business"],
     "quoracount": 1,
     "recommends": []
@@ -599,7 +599,7 @@
     "title": "Give and Take",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["leadership"],
     "quoracount": 1,
     "recommends": []
@@ -607,7 +607,7 @@
     "title": "The Power of Habit",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["empathy"],
     "quoracount": 1,
     "recommends": []
@@ -615,7 +615,7 @@
     "title": "BOLD",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["communication"],
     "quoracount": 1,
     "recommends": []
@@ -623,7 +623,7 @@
     "title": "The Product Manager’s Survival Guide",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["product-management"],
     "quoracount": 1,
     "recommends": []
@@ -631,7 +631,7 @@
     "title": "The Art of Asking",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["leadership"],
     "quoracount": 1,
     "recommends": []
@@ -639,7 +639,7 @@
     "title": "Talking from 9 to 5",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["communication"],
     "quoracount": 1,
     "recommends": []
@@ -647,7 +647,7 @@
     "title": "Switch",
     "author": "Chip Heath",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["communication"],
     "quoracount": 1,
     "recommends": []
@@ -655,7 +655,7 @@
     "title": "Extreme Ownership (Navy Seals)",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["leadership"],
     "quoracount": 1,
     "recommends": []
@@ -663,7 +663,7 @@
     "title": "Growth Engines",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["growth"],
     "quoracount": 1,
     "recommends": []
@@ -671,7 +671,7 @@
     "title": "Badass: Making Users Awesome",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["design"],
     "quoracount": 1,
     "recommends": []
@@ -679,7 +679,7 @@
     "title": "Start with Why",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["communication"],
     "quoracount": 1,
     "recommends": []
@@ -687,7 +687,7 @@
     "title": "Hide a dagger behind a smile",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["communication"],
     "quoracount": 1,
     "recommends": []
@@ -695,7 +695,7 @@
     "title": "How to get people to do stuff",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["leadership"],
     "quoracount": 1,
     "recommends": []
@@ -703,7 +703,7 @@
     "title": "How to Win",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["leadership"],
     "quoracount": 1,
     "recommends": []
@@ -711,7 +711,7 @@
     "title": "Influencer",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["leadership"],
     "quoracount": 1,
     "recommends": []
@@ -719,7 +719,7 @@
     "title": "About Face",
     "author": "",
     "amazonus": "",
-    "logo": "",
+    "logo": ".png",
     "tags": ["design"],
     "quoracount": 1,
     "recommends": []
