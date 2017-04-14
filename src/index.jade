@@ -71,14 +71,18 @@ html(lang="en" itemtype="http://schema.org/WebPage" itemscope)
                                     =book.author
 
                         .recommenders
-                            =book.recommends.length
                             if book.recommends.length > 1
+                                =book.recommends.length
                                 |  recommendations:
                                 br
-                            else 
-                                |  recommendation: 
+                            if book.recommends.length == 1 
+                                |  1 recommendation: 
                             each name in book.recommends
                                 span.js-filter(data-filter=name.replace(' ', '-'))=name
+                            if book.quoracount
+                                br
+                                | Quora mentions: 
+                                = book.quoracount
 
             .clear-both
 

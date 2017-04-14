@@ -1,65 +1,183 @@
 [{
-    "title": "High Output Management",
-    "author": "Andy Grove",
-    "logo": "highoutput.png",
-    "tags": ["leadership"],
-    "amazonus": "http://amzn.to/2oqsncl",
-    "recommends": ["Julie Zhuo", "Ken Norton", "Noah Weiss", "Simon Cross", "Tomasz Tunguz"]
-}, {
-    "title": "The Innovator's Dilemma",
-    "author": "Clayton Christensen",
-    "logo": "innovatorsdilemma.png",
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "logo": "leanstartup.png",
     "tags": ["business"],
-    "amazonus": "http://amzn.to/2pbtVHc",
-    "recommends": ["Ben Horowitz", "Ken Norton", "Noah Weiss", "Simon Cross", "Steve Jobs"]
-}, {
-    "title": "The Hard Thing About Hard Things",
-    "author": "Ben Horowitz",
-    "logo": "hardthingabouthardthings.png",
-    "tags": ["leadership"],
-    "amazonus": "http://amzn.to/2pwBTtX",
-    "recommends": ["Ben Horowitz", "Ken Norton", "Noah Weiss", "Simon Cross"]
+    "amazonus": "http://amzn.to/2oqm2xV",
+    "quoracount": 15,
+    "recommends": ["Ken Norton", "Noah Weiss", "Simon Cross"]
 }, {
     "title": "The Design of Everyday Things",
     "author": "Donald Norman",
     "logo": "designofeverydaythings.png",
     "tags": ["design"],
     "amazonus": "http://amzn.to/2nHbhtV",
+    "quoracount": 12,
     "recommends": ["Julie Zhuo", "Ken Norton", "Noah Weiss", "Simon Cross"]
+}, {
+    "title": "Inspired",
+    "author": "Marty Cagan",
+    "logo": "inspired.png",
+    "tags": ["product-management"],
+    "amazonus": "http://amzn.to/2ouQGrv",
+    "quoracount": 13,
+    "recommends": ["Ken Norton", "Noah Weiss"]
+}, {
+    "title": "The Innovator's Dilemma",
+    "author": "Clayton Christensen",
+    "logo": "innovatorsdilemma.png",
+    "tags": ["business"],
+    "amazonus": "http://amzn.to/2pbtVHc",
+    "quoracount": 6,
+    "recommends": ["Ben Horowitz", "Ken Norton", "Noah Weiss", "Simon Cross", "Steve Jobs"]
+}, {
+    "title": "Crossing the Chasm",
+    "author": "Geoffrey Moore",
+    "logo": "crossingthechasm.png",
+    "tags": ["growth"],
+    "amazonus": "http://amzn.to/2nHxOGX",
+    "quoracount": 8,
+    "recommends": ["Ken Norton", "Simon Cross"]
+}, {
+    "title": "The Hard Thing About Hard Things",
+    "author": "Ben Horowitz",
+    "logo": "hardthingabouthardthings.png",
+    "tags": ["leadership"],
+    "amazonus": "http://amzn.to/2pwBTtX",
+    "quoracount": 5,
+    "recommends": ["Ben Horowitz", "Ken Norton", "Noah Weiss", "Simon Cross"]
+}, {
+    "title": "The Four Steps to the Epiphany",
+    "author": "Steve Blank",
+    "logo": "fourstepstoepiphany.png",
+    "tags": ["product-management"],
+    "amazonus": "http://amzn.to/2oqQxDJ",
+    "quoracount": 7,
+    "recommends": ["Ryan Hoover"]
+}, {
+    "title": "High Output Management",
+    "author": "Andy Grove",
+    "logo": "highoutput.png",
+    "tags": ["leadership"],
+    "amazonus": "http://amzn.to/2oqsncl",
+    "quoracount": 2,
+    "recommends": ["Julie Zhuo", "Ken Norton", "Noah Weiss", "Simon Cross", "Tomasz Tunguz"]
 }, {
     "title": "Thinking, Fast and Slow",
     "author": "Daniel Kahneman",
     "logo": "thinkingfastandslow.png",
     "tags": ["empathy"],
     "amazonus": "http://amzn.to/2oqlDvh",
+    "quoracount": 3,
     "recommends": ["Julie Zhuo", "Ken Norton", "Simon Cross"]
 }, {
-    "title": "The Lean Startup",
-    "author": "Eric Ries",
-    "logo": "leanstartup.png",
+    "title": "Don't Make Me Think",
+    "author": "Steve Krug",
+    "logo": "dontmakemethink.png",
+    "tags": ["design"],
+    "amazonus": "http://amzn.to/2oZVDK8",
+    "quoracount": 4,
+    "recommends": ["Ken Norton", "Simon Cross"]
+}, {
+    "title": "Zero to One",
+    "author": "Peter Thiel and Blake Masters",
+    "logo": "zerotoone.png",
     "tags": ["business"],
-    "amazonus": "http://amzn.to/2oqm2xV",
-    "recommends": ["Ken Norton", "Noah Weiss", "Simon Cross"]
+    "amazonus": "http://amzn.to/2oZZmaS",
+    "quoracount": 4,
+    "recommends": ["Simon Cross", "Tomasz Tunguz"]
+}, {
+    "title": "Influence: The Psychology of Persuasion",
+    "tags": ["communication"],
+    "quoracount": 5,
+    "recommends": ["Teresa Torres"]
+}, {
+    "title": "Business Model Generation",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["business"],
+    "quoracount": 4,
+    "recommends": ["Tomasz Tunguz"]
+}, {
+    "title": "Decisive",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["leadership"],
+    "quoracount": 4,
+    "recommends": ["Teresa Torres"]
 }, {
     "title": "Steve Jobs",
     "author": "Walter Isaacson",
     "logo": "stevejobs.png",
     "tags": ["biography"],
     "amazonus": "http://amzn.to/2ouQTe7",
+    "quoracount": 1,
     "recommends": ["Bill Gates", "Ken Norton", "Simon Cross"]
 }, {
-    "title": "On Writing",
-    "author": "Stephen King",
-    "logo": "onwriting.png",
-    "tags": ["communication"],
-    "amazonus": "http://amzn.to/2oqry3k",
-    "recommends": ["Ken Norton", "Noah Weiss"]
+    "title": "Creativity, Inc",
+    "author": "Ed Catmull",
+    "logo": "creativityinc.png",
+    "tags": ["leadership"],
+    "amazonus": "http://amzn.to/2oZUYbU",
+    "quoracount": 1,
+    "recommends": ["Ken Norton", "Mark Zuckerberg", "Simon Cross"]
 }, {
     "title": "Getting Things Done",
     "author": "David Allen",
     "logo": "gettingthingsdone.png",
     "tags": ["leadership"],
     "amazonus": "http://amzn.to/2nHnr5T",
+    "quoracount": 2,
+    "recommends": ["Ken Norton", "Simon Cross"]
+}, {
+    "title": "Hooked: How to Build Habit-Forming Products",
+    "author": "Nir Eyal",
+    "logo": "hooked.png",
+    "tags": ["design"],
+    "amazonus": "http://amzn.to/2nHq87n",
+    "quoracount": 3,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Made to Stick",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["design"],
+    "quoracount": 3,
+    "recommends": ["Simon Cross"]
+}, {
+    "title": "The Principles of Product Development Flow",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["product-management"],
+    "quoracount": 4,
+    "recommends": []
+}, {
+    "title": "The Everything Store: Jeff Bezos and the Age of Amazon",
+    "author": "Brad Stone",
+    "logo": "everythingstore.png",
+    "tags": ["biography"],
+    "amazonus": "http://amzn.to/2pbxrBm",
+    "quoracount": 1,
+    "recommends": ["Noah Weiss", "Simon Cross"]
+}, {
+    "title": "Inside the Tornado",
+    "author": "Geoffrey Moore",
+    "logo": "insidethetornado.png",
+    "tags": ["growth"],
+    "amazonus": "http://amzn.to/2p01Dml",
+    "quoracount": 1,
+    "recommends": ["Ken Norton", "Steve Jobs"]
+}, {
+    "title": "Predictably Irrational",
+    "author": "Dan Ariely",
+    "logo": "predictablyirrational.png",
+    "tags": ["empathy"],
+    "amazonus": "http://amzn.to/2oqtyIQ",
+    "quoracount": 1,
     "recommends": ["Ken Norton", "Simon Cross"]
 }, {
     "title": "Getting To Yes & Getting Past No",
@@ -67,146 +185,55 @@
     "logo": "gettingtoyes.png",
     "tags": ["communication"],
     "amazonus": "http://amzn.to/2nHvuj3",
+    "quoracount": 1,
     "recommends": ["Ken Norton", "Simon Cross"]
-}, {
-    "title": "Creativity, Inc",
-    "author": "Ed Catmull",
-    "logo": "creativityinc.png",
-    "tags": ["leadership"],
-    "amazonus": "http://amzn.to/2oZUYbU",
-    "recommends": ["Ken Norton", "Simon Cross"]
-}, {
-    "title": "Crossing the Chasm",
-    "author": "Geoffrey Moore",
-    "logo": "crossingthechasm.png",
-    "tags": ["growth"],
-    "amazonus": "http://amzn.to/2nHxOGX",
-    "recommends": ["Ken Norton", "Simon Cross"]
-}, {
-    "title": "How to Lie with Statistics",
-    "author": "Darrell Huff",
-    "logo": "liewithstatistics.png",
-    "tags": ["analytics"],
-    "amazonus": "http://amzn.to/2nHpmHv",
-    "recommends": ["Bill Gates", "Ken Norton"]
-}, {
-    "title": "How to Win Friends and Influence People",
-    "author": "Dale Carnegie",
-    "logo": "howtowinfriends.png",
-    "tags": ["communication"],
-    "amazonus": "http://amzn.to/2o8jFi2",
-    "recommends": ["Buffer Blog", "Noah Weiss"]
 }, {
     "title": "In The Plex: How Google Thinks, Works, and Shapes Our Lives",
     "author": "Steven Levy",
     "logo": "intheplex.png",
     "tags": ["product-management"],
     "amazonus": "http://amzn.to/2nHwHHj",
+    "quoracount": 1,
     "recommends": ["Ken Norton", "Noah Weiss"]
 }, {
-    "title": "Inside the Tornado",
-    "author": "Geoffrey Moore",
-    "logo": "insidethetornado.png",
+    "title": "How to Measure Anything",
+    "author": "Douglas Hubbard",
+    "logo": "howtomeasure.png",
+    "tags": ["analytics"],
+    "amazonus": "http://amzn.to/2oqOmA4",
+    "quoracount": 2,
+    "recommends": ["Simon Cross"]
+}, {
+    "title": "Viral Loop",
+    "author": "Adam Penenberg",
+    "logo": "viralloop.png",
     "tags": ["growth"],
-    "amazonus": "http://amzn.to/2p01Dml",
-    "recommends": ["Ken Norton", "Steve Jobs"]
-}, {
-    "title": "Inspired",
-    "author": "Marty Cagan",
-    "logo": "inspired.png",
-    "tags": ["product-management"],
-    "amazonus": "http://amzn.to/2ouQGrv",
-    "recommends": ["Ken Norton", "Noah Weiss"]
-}, {
-    "title": "Don't Make Me Think",
-    "author": "Steve Krug",
-    "logo": "dontmakemethink.png",
-    "tags": ["design"],
-    "amazonus": "http://amzn.to/2oZVDK8",
-    "recommends": ["Ken Norton", "Simon Cross"]
-}, {
-    "title": "The Everything Store: Jeff Bezos and the Age of Amazon",
-    "author": "Brad Stone",
-    "logo": "everythingstore.png",
-    "tags": ["biography"],
-    "amazonus": "http://amzn.to/2pbxrBm",
-    "recommends": ["Noah Weiss", "Simon Cross"]
-}, {
-    "title": "Mindset: The New Psychology of Success",
-    "author": "Carol S. Dweck",
-    "logo": "mindset.png",
-    "tags": ["leadership"],
-    "amazonus": "http://amzn.to/2oqvjpo",
-    "recommends": ["Bill Gates", "Julie Zhuo"]
-}, {
-    "title": "My Years with General Motors",
-    "author": "Alfred Sloan",
-    "logo": "myyearswithgm.png",
-    "tags": ["business"],
-    "amazonus": "http://amzn.to/2oZV0Ay",
-    "recommends": ["Ben Horowitz", "Bill Gates"]
-}, {
-    "title": "Zero to One",
-    "author": "Peter Thiel and Blake Masters",
-    "logo": "zerotoone.png",
-    "tags": ["business"],
-    "amazonus": "http://amzn.to/2oZZmaS",
-    "recommends": ["Simon Cross", "Tomasz Tunguz"]
-}, {
-    "title": "The Innovator's Solution",
-    "author": "Clayton Christensen",
-    "logo": "innovatorssolution.png",
-    "tags": ["business"],
-    "amazonus": "http://amzn.to/2p06TGn",
-    "recommends": ["Ken Norton", "Noah Weiss"]
-}, {
-    "title": "Predictably Irrational",
-    "author": "Dan Ariely",
-    "logo": "predictablyirrational.png",
-    "tags": ["empathy"],
-    "amazonus": "http://amzn.to/2oqtyIQ",
-    "recommends": ["Ken Norton", "Simon Cross"]
-}, {
-    "title": "Only the Paranoid Survive",
-    "author": "Andy Grove",
-    "logo": "paranoidsurvive.png",
-    "tags": ["business"],
-    "amazonus": "http://amzn.to/2o8qYGB",
-    "recommends": ["Ben Horowitz", "Steve Jobs"]
-}, {
-    "title": "Fooled by Randomness",
-    "author": "Nassim Nicholas Taleb",
-    "logo": "fooledbyrandomness.png",
-    "tags": ["empathy"],
-    "amazonus": "http://amzn.to/2nHK0Yn",
-    "recommends": ["Ben Horowitz"]
-}, {
-    "title": "Business Adventures",
-    "author": "John Brooks",
-    "logo": "businessadventures.png",
-    "tags": ["business"],
-    "amazonus": "http://amzn.to/2p02e7D",
-    "recommends": ["Bill Gates"]
-}, {
-    "title": "Ogilvy on Advertising",
-    "author": "David Ogilvy",
-    "logo": "ogliviyonads.png",
-    "tags": ["growth"],
-    "amazonus": "http://amzn.to/2oqaZos",
+    "amazonus": "http://amzn.to/2p09gcB",
+    "quoracount": 2,
     "recommends": ["Alex Schultz"]
 }, {
-    "title": "Quiet: The Power of Introverts",
-    "author": "Susan Cain",
-    "logo": "quiet.png",
-    "tags": ["empathy"],
-    "amazonus": "http://amzn.to/2p01GOU",
+    "title": "Freakonomics",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["business"],
+    "quoracount": 2,
+    "recommends": ["Simon Cross"]
+}, {
+    "title": "The Lean Product Playbook",
+    "author": "Dan Olsen",
+    "logo": "leanproductplaybook.png",
+    "tags": ["product-management"],
+    "amazonus": "http://amzn.to/2oqr9Oj",
+    "quoracount": 2,
     "recommends": ["Ken Norton"]
 }, {
-    "title": "Sprint",
-    "author": "Jake Knapp",
-    "logo": "sprint.png",
-    "tags": ["design"],
-    "amazonus": "http://amzn.to/2o85QAm",
+    "title": "The Mythical Man-Month",
+    "author": "Frederick Brooks",
+    "logo": "mythicalmanmonth.png",
+    "tags": ["leadership"],
+    "amazonus": "http://amzn.to/2oZTKx5",
+    "quoracount": 2,
     "recommends": ["Ken Norton"]
 }, {
     "title": "Nudge",
@@ -214,132 +241,103 @@
     "logo": "nudge.png",
     "tags": ["empathy"],
     "amazonus": "http://amzn.to/2ouJzzb",
+    "quoracount": 2,
     "recommends": ["Ken Norton"]
 }, {
-    "title": "Team of Rivals",
-    "author": "Doris Kearns Goodwin",
-    "logo": "teamofrivals.png",
-    "tags": ["leadership"],
-    "amazonus": "http://amzn.to/2oqzwK2",
-    "recommends": ["Ken Norton"]
-}, {
-    "title": "Naked Statistics",
-    "author": "Charles Wheelan",
-    "logo": "nakedstatistics.png",
-    "tags": ["analytics"],
-    "amazonus": "http://amzn.to/2pbxygi",
-    "recommends": ["Noah Weiss"]
-}, {
-    "title": "Meaningful: the Story of Ideas that Fly",
-    "author": "Bernadette Jiwa",
-    "logo": "meaningful.png",
+    "title": "Drive",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
     "tags": ["communication"],
-    "amazonus": "http://amzn.to/2nHxPe1",
-    "recommends": ["Ken Norton"]
+    "quoracount": 3,
+    "recommends": []
 }, {
-    "title": "The Halo Effect",
-    "author": "Phil Rosenzweig",
-    "logo": "haloeffect.png",
-    "tags": ["leadership"],
-    "amazonus": "http://amzn.to/2p0fh9d",
-    "recommends": ["Ken Norton"]
+    "title": "Running Lean",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["business"],
+    "quoracount": 3,
+    "recommends": []
 }, {
-    "title": "Managing Humans",
-    "author": "Michael Lopp",
-    "logo": "managinghumans.png",
-    "tags": ["leadership"],
-    "amazonus": "http://amzn.to/2ouYFon",
-    "recommends": ["Noah Weiss"]
-}, {
-    "title": "Hooked: How to Build Habit-Forming Products",
-    "author": "Nir Eyal",
-    "logo": "hooked.png",
-    "tags": ["design"],
-    "amazonus": "http://amzn.to/2nHq87n",
-    "recommends": ["Ken Norton"]
-}, {
-    "title": "Positioning",
-    "author": "Al Ries and Jack Trout",
-    "logo": "positioning.png",
-    "tags": ["growth"],
-    "amazonus": "http://amzn.to/2ouJv2t",
-    "recommends": ["Ken Norton"]
-}, {
-    "title": "The Lean Product Playbook",
-    "author": "Dan Olsen",
-    "logo": "leanproductplaybook.png",
+    "title": "Agile Product Management with Scrum",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
     "tags": ["product-management"],
-    "amazonus": "http://amzn.to/2oqr9Oj",
-    "recommends": ["Ken Norton"]
+    "quoracount": 3,
+    "recommends": []
 }, {
-    "title": "Focus",
-    "author": "Al Ries",
-    "logo": "focus.png",
-    "tags": ["growth"],
-    "amazonus": "http://amzn.to/2nHx18I",
-    "recommends": ["Ben Horowitz"]
-}, {
-    "title": "The Mythical Man-Month",
-    "author": "Frederick Brooks",
-    "logo": "mythicalmanmonth.png",
+    "title": "Getting Real",
+    "author": "37 Signals",
+    "amazonus": "",
+    "logo": "",
     "tags": ["leadership"],
-    "amazonus": "http://amzn.to/2oZTKx5",
-    "recommends": ["Ken Norton"]
+    "quoracount": 3,
+    "recommends": []
 }, {
-    "title": "The Visual Display of Quantitative Information",
-    "author": "Edward R. Tufte",
-    "logo": "visualdisplay.png",
-    "tags": ["analytics"],
-    "amazonus": "http://amzn.to/2nHxIik",
-    "recommends": ["Noah Weiss"]
+    "title": "On Writing",
+    "author": "Stephen King",
+    "logo": "onwriting.png",
+    "tags": ["communication"],
+    "amazonus": "http://amzn.to/2oqry3k",
+    "quoracount": 0,
+    "recommends": ["Ken Norton", "Noah Weiss"]
 }, {
-    "title": "Competing Against Luck",
+    "title": "My Years with General Motors",
+    "author": "Alfred Sloan",
+    "logo": "myyearswithgm.png",
+    "tags": ["business"],
+    "amazonus": "http://amzn.to/2oZV0Ay",
+    "quoracount": 0,
+    "recommends": ["Ben Horowitz", "Bill Gates"]
+}, {
+    "title": "Only the Paranoid Survive",
+    "author": "Andy Grove",
+    "logo": "paranoidsurvive.png",
+    "tags": ["business"],
+    "amazonus": "http://amzn.to/2o8qYGB",
+    "quoracount": 0,
+    "recommends": ["Ben Horowitz", "Steve Jobs"]
+}, {
+    "title": "How to Win Friends and Influence People",
+    "author": "Dale Carnegie",
+    "logo": "howtowinfriends.png",
+    "tags": ["communication"],
+    "amazonus": "http://amzn.to/2o8jFi2",
+    "quoracount": 0,
+    "recommends": ["Buffer Blog", "Noah Weiss"]
+}, {
+    "title": "The Innovator's Solution",
     "author": "Clayton Christensen",
-    "logo": "competingagainstluck.png",
+    "logo": "innovatorssolution.png",
     "tags": ["business"],
-    "amazonus": "http://amzn.to/2o8sYOW",
-    "recommends": ["Ken Norton"]
+    "amazonus": "http://amzn.to/2p06TGn",
+    "quoracount": 0,
+    "recommends": ["Ken Norton", "Noah Weiss"]
 }, {
-    "title": "Venture Deals: Be Smarter Than Your Lawyer and VC",
-    "author": "Brad Feld and Jason Mendelson",
-    "logo": "venturedeals.png",
-    "tags": ["business"],
-    "amazonus": "http://amzn.to/2oqAo11",
-    "recommends": ["Noah Weiss"]
-}, {
-    "title": "Viral Loop",
-    "author": "Adam Penenberg",
-    "logo": "viralloop.png",
-    "tags": ["growth"],
-    "amazonus": "http://amzn.to/2p09gcB",
-    "recommends": ["Alex Schultz"]
-}, {
-    "title": "What Every BODY is Saying",
-    "author": "Joe Navarro",
-    "logo": "whateverybody.png",
-    "tags": ["empathy"],
-    "amazonus": "http://amzn.to/2pbFZYZ",
-    "recommends": ["Simon Cross"]
-}, {
-    "title": "Work Rules!",
-    "author": "Laszlo Bock",
-    "logo": "workrules.png",
+    "title": "Mindset: The New Psychology of Success",
+    "author": "Carol S. Dweck",
+    "logo": "mindset.png",
     "tags": ["leadership"],
-    "amazonus": "http://amzn.to/2nHwR16",
-    "recommends": ["Ken Norton"]
+    "amazonus": "http://amzn.to/2oqvjpo",
+    "quoracount": 0,
+    "recommends": ["Bill Gates", "Julie Zhuo"]
 }, {
-    "title": "Yes to the Mess: Surprising Leadership Lessons from Jazz",
-    "author": "Frank Barrett",
-    "logo": "yestothemess.png",
-    "tags": ["leadership"],
-    "amazonus": "http://amzn.to/2nHxlUY",
-    "recommends": ["Ken Norton"]
+    "title": "How to Lie with Statistics",
+    "author": "Darrell Huff",
+    "logo": "liewithstatistics.png",
+    "tags": ["analytics"],
+    "amazonus": "http://amzn.to/2nHpmHv",
+    "quoracount": 0,
+    "recommends": ["Bill Gates", "Ken Norton"]
 }, {
     "title": "Beautiful Evidence",
     "author": "Edward R. Tufte",
     "logo": "beautifulevidence.png",
     "tags": ["analytics"],
     "amazonus": "http://amzn.to/2ouMJDd",
+    "quoracount": 1,
     "recommends": ["Noah Weiss"]
 }, {
     "title": "To Sell Is Human",
@@ -347,26 +345,382 @@
     "logo": "tosellishuman.png",
     "tags": ["growth"],
     "amazonus": "http://amzn.to/2p09K2i",
+    "quoracount": 1,
     "recommends": ["Tomasz Tunguz"]
+}, {
+    "title": "Work Rules!",
+    "author": "Laszlo Bock",
+    "logo": "workrules.png",
+    "tags": ["leadership"],
+    "amazonus": "http://amzn.to/2nHwR16",
+    "quoracount": 1,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Positioning",
+    "author": "Al Ries and Jack Trout",
+    "logo": "positioning.png",
+    "tags": ["growth"],
+    "amazonus": "http://amzn.to/2ouJv2t",
+    "quoracount": 1,
+    "recommends": ["Ken Norton"]
 }, {
     "title": "Predictable Revenue",
     "author": "Aaron Ross and Marylou Tyler",
     "logo": "predictablerevenue.png",
     "tags": ["growth"],
     "amazonus": "http://amzn.to/2pwQTIi",
+    "quoracount": 1,
     "recommends": ["Tomasz Tunguz"]
 }, {
-    "title": "The Four Steps to the Epiphany",
-    "author": "Steve Blank",
-    "logo": "fourstepstoepiphany.png",
-    "tags": ["product-management"],
-    "amazonus": "http://amzn.to/2oqQxDJ",
-    "recommends": ["Ryan Hoover"]
+    "title": "Where good ideas come from",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["leadership"],
+    "quoracount": 1,
+    "recommends": ["Bill Gates"]
 }, {
-    "title": "How to Measure Anything",
-    "author": "Douglas Hubbard",
-    "logo": "howtomeasure.png",
-    "tags": ["analytics"],
-    "amazonus": "http://amzn.to/2oqOmA4",
+    "title": "It’s your Ship",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["leadership"],
+    "quoracount": 1,
     "recommends": ["Simon Cross"]
+}, {
+    "title": "The Visual Display of Quantitative Information",
+    "author": "Edward R. Tufte",
+    "logo": "visualdisplay.png",
+    "tags": ["analytics"],
+    "amazonus": "http://amzn.to/2nHxIik",
+    "quoracount": 1,
+    "recommends": ["Noah Weiss"]
+}, {
+    "title": "The score takes care of itself",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["leadership"],
+    "quoracount": 1,
+    "recommends": ["Simon Cross"]
+}, {
+    "title": "Fooled by Randomness",
+    "author": "Nassim Nicholas Taleb",
+    "logo": "fooledbyrandomness.png",
+    "tags": ["empathy"],
+    "amazonus": "http://amzn.to/2nHK0Yn",
+    "quoracount": 1,
+    "recommends": ["Ben Horowitz"]
+}, {
+    "title": "The Halo Effect",
+    "author": "Phil Rosenzweig",
+    "logo": "haloeffect.png",
+    "tags": ["leadership"],
+    "amazonus": "http://amzn.to/2p0fh9d",
+    "quoracount": 1,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Competing Against Luck",
+    "author": "Clayton Christensen",
+    "logo": "competingagainstluck.png",
+    "tags": ["business"],
+    "amazonus": "http://amzn.to/2o8sYOW",
+    "quoracount": 1,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "What Customers Want",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["empathy"],
+    "quoracount": 2,
+    "recommends": []
+}, {
+    "title": "Lean Analytics",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["analytics"],
+    "quoracount": 2,
+    "recommends": []
+}, {
+    "title": "The Five Dysfunctions of a Team",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["leadership"],
+    "quoracount": 2,
+    "recommends": []
+}, {
+    "title": "Innovation Games",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["design"],
+    "quoracount": 2,
+    "recommends": []
+}, {
+    "title": "The Inmates Are Running the Asylum",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["design"],
+    "quoracount": 2,
+    "recommends": []
+}, {
+    "title": "Dealing with Darwin",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["leadership"],
+    "quoracount": 2,
+    "recommends": []
+}, {
+    "title": "Emotional Design",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["design"],
+    "quoracount": 2,
+    "recommends": []
+}, {
+    "title": "Yes to the Mess: Surprising Leadership Lessons from Jazz",
+    "author": "Frank Barrett",
+    "logo": "yestothemess.png",
+    "tags": ["leadership"],
+    "amazonus": "http://amzn.to/2nHxlUY",
+    "quoracount": 0,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Team of Rivals",
+    "author": "Doris Kearns Goodwin",
+    "logo": "teamofrivals.png",
+    "tags": ["leadership"],
+    "amazonus": "http://amzn.to/2oqzwK2",
+    "quoracount": 0,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Quiet: The Power of Introverts",
+    "author": "Susan Cain",
+    "logo": "quiet.png",
+    "tags": ["empathy"],
+    "amazonus": "http://amzn.to/2p01GOU",
+    "quoracount": 0,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Business Adventures",
+    "author": "John Brooks",
+    "logo": "businessadventures.png",
+    "tags": ["business"],
+    "amazonus": "http://amzn.to/2p02e7D",
+    "quoracount": 0,
+    "recommends": ["Bill Gates"]
+}, {
+    "title": "What Every BODY is Saying",
+    "author": "Joe Navarro",
+    "logo": "whateverybody.png",
+    "tags": ["empathy"],
+    "amazonus": "http://amzn.to/2pbFZYZ",
+    "quoracount": 0,
+    "recommends": ["Simon Cross"]
+}, {
+    "title": "Meaningful: the Story of Ideas that Fly",
+    "author": "Bernadette Jiwa",
+    "logo": "meaningful.png",
+    "tags": ["communication"],
+    "amazonus": "http://amzn.to/2nHxPe1",
+    "quoracount": 0,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Focus",
+    "author": "Al Ries",
+    "logo": "focus.png",
+    "tags": ["growth"],
+    "amazonus": "http://amzn.to/2nHx18I",
+    "quoracount": 0,
+    "recommends": ["Ben Horowitz"]
+}, {
+    "title": "Sprint",
+    "author": "Jake Knapp",
+    "logo": "sprint.png",
+    "tags": ["design"],
+    "amazonus": "http://amzn.to/2o85QAm",
+    "quoracount": 0,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Naked Statistics",
+    "author": "Charles Wheelan",
+    "logo": "nakedstatistics.png",
+    "tags": ["analytics"],
+    "amazonus": "http://amzn.to/2pbxygi",
+    "quoracount": 0,
+    "recommends": ["Noah Weiss"]
+}, {
+    "title": "Venture Deals: Be Smarter Than Your Lawyer and VC",
+    "author": "Brad Feld and Jason Mendelson",
+    "logo": "venturedeals.png",
+    "tags": ["business"],
+    "amazonus": "http://amzn.to/2oqAo11",
+    "quoracount": 0,
+    "recommends": ["Noah Weiss"]
+}, {
+    "title": "Managing Humans",
+    "author": "Michael Lopp",
+    "logo": "managinghumans.png",
+    "tags": ["leadership"],
+    "amazonus": "http://amzn.to/2ouYFon",
+    "quoracount": 0,
+    "recommends": ["Noah Weiss"]
+}, {
+    "title": "Ogilvy on Advertising",
+    "author": "David Ogilvy",
+    "logo": "ogliviyonads.png",
+    "tags": ["growth"],
+    "amazonus": "http://amzn.to/2oqaZos",
+    "quoracount": 0,
+    "recommends": ["Alex Schultz"]
+}, {
+    "title": "Stragetic Storytelling",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["communication"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "Exponential Organization",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["business"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "Give and Take",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["leadership"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "The Power of Habit",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["empathy"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "BOLD",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["communication"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "The Product Manager’s Survival Guide",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["product-management"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "The Art of Asking",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["leadership"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "Talking from 9 to 5",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["communication"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "Switch",
+    "author": "Chip Heath",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["communication"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "Extreme Ownership (Navy Seals)",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["leadership"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "Growth Engines",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["growth"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "Badass: Making Users Awesome",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["design"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "Start with Why",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["communication"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "Hide a dagger behind a smile",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["communication"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "How to get people to do stuff",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["leadership"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "How to Win",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["leadership"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "Influencer",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["leadership"],
+    "quoracount": 1,
+    "recommends": []
+}, {
+    "title": "About Face",
+    "author": "",
+    "amazonus": "",
+    "logo": "",
+    "tags": ["design"],
+    "quoracount": 1,
+    "recommends": []
 }]

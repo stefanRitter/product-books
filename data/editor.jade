@@ -34,31 +34,12 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
             button(type="button" name="button" id="addBook") Add Book
         
         hr
-
-        #outputSection
-            button(type="button" name="button" id="transform") Output JSON
-            textarea#output
-                | output the json blob here
-        hr
     
         #books(data-books=JSON.stringify(books))
-            each book in books
-                .book
-                    // img(src=book.logo alt=book.title)
-                    p=book.title
-                    p=book.author
-                    p=book.logo
-                    .tags
-                        each tag in book.tags
-                            span=tag
-                    .recommenders
-                        each name in book.recommends
-                            span=name
-                    
+
         script(type="text/javascript" src="/dist/zepto.min.js")
         script.
             var books = $('#books').data('books');
-            var newBook = {};
             
             books.forEach(function (b) {
                 b.recommends.sort();
@@ -67,44 +48,9 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
                 return a.title.localeCompare(b.title);
             });
             books.sort(function (a, b) {
-                return b.recommends.length - a.recommends.length;
+                var al = a.recommends.length + (a.quoracount*0.8);
+                var bl = b.recommends.length + (b.quoracount*0.8);
+                return bl - al;
             });
             console.log(JSON.stringify(books));
             
-            
-            /*
-            $('#books .book').each(function (i, el) {
-                console.log(el);
-            });
-            
-            // listen to buttons
-            $('#transform').on('click', function (e) {
-                e.preventDefault();
-                $('#output').text(JSON.stringify(books));
-            });
-            
-            // add or edit book
-            $('#addBook').on('click', function (e) {
-                e.preventDefault();
-                $("#newBookForm").serializeArray().forEach(function (keyValue) {
-                    newBook[keyValue.name] = keyValue.value;
-                });
-                
-                var newTags = [];
-                newBook.tags.split(',').forEach(function (tag) {
-                    if (tag) newTags.push(tag.truncate());
-                });
-                newBook.tags = newTags;
-                
-                var recommends = [];
-                newBook.recommends.split(',').forEach(function (tag) {
-                    if (tag) recommends.push(tag.truncate());
-                });
-                newBook.recommends = recommends;
-                
-                newBook.score = newBook.recommends.length;
-                console.log(newBook);
-                
-                books.push(newBook);
-            });
-            */
