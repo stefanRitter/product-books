@@ -20,7 +20,7 @@ html(lang="en" itemtype="http://schema.org/WebPage" itemscope)
             
             h2
                 strong
-                    =books.length - 22
+                    =books.length
                     |  BOOKS LISTED 
             p
                 a.button(href="#proposebook") Propose a book
@@ -50,45 +50,43 @@ html(lang="en" itemtype="http://schema.org/WebPage" itemscope)
                             p(style="margin-top: 85px;padding: 15px;font-weight: bold;")
                                 | Get an email when new books are added to Product Book:
                             a.button(href="#mc-embedded-subscribe-form" style="background:#da2f92") Alert me
-                            
                     
-                    if book.logo != '.png'
-                        .book(class=classes)
-                            .rank
-                                i
-                                    |#
-                                    =index+1
-                                span rank
-                            
-                            a.img-link(href=book.amazonus target="_blank")
-                                img(src=book.logo alt=book.title)
-                                br
-                                span.amazon-button more on amazon.com
+                    .book(class=classes)
+                        .rank
+                            i
+                                |#
+                                =index+1
+                            span rank
+                        
+                        a.img-link(href=book.amazonus target="_blank")
+                            img(src=book.logo alt=book.title)
+                            br
+                            span.amazon-button more on amazon.com
 
-                            .book-title
-                                a(href=book.amazonus target="_blank")
-                                    =book.title
-                                    br
-                                    span.author
-                                        | by 
-                                        =book.author
-                            
-                            .tags
-                                .tag.js-filter(data-filter=book.tags[0])=book.tags[0]
-                            
-                            .recommenders
-                                if book.quoracount
-                                    | Quora mentions: 
-                                    = book.quoracount
-                                    br
-                                if book.recommends.length > 1
-                                    | Recommendations: 
-                                    =book.recommends.length
-                                    br
-                                if book.recommends.length == 1 
-                                    |  1 recommendation: 
-                                each name in book.recommends
-                                    span.js-filter(data-filter=name.replace(' ', '-'))=name
+                        .book-title
+                            a(href=book.amazonus target="_blank")
+                                =book.title
+                                br
+                                span.author
+                                    | by 
+                                    =book.author
+                        
+                        .tags
+                            .tag.js-filter(data-filter=book.tags[0])=book.tags[0]
+                        
+                        .recommenders
+                            if book.quoracount
+                                | Quora mentions: 
+                                = book.quoracount
+                                br
+                            if book.recommends.length > 1
+                                | Recommendations: 
+                                =book.recommends.length
+                                br
+                            if book.recommends.length == 1 
+                                |  1 recommendation: 
+                            each name in book.recommends
+                                span.js-filter(data-filter=name.replace(' ', '-'))=name
 
             .clear-both
 
