@@ -47,7 +47,7 @@ html(lang="en" itemtype="http://schema.org/WebPage" itemscope)
                     
                     if index == 5
                         .book-alert
-                            p(style="margin-top: 85px;padding: 15px;font-weight: bold;")
+                            p
                                 | Get an email when new books are added to Product Book:
                             a.button(href="#mc-embedded-subscribe-form" style="background:#da2f92") Alert me
                     
@@ -71,8 +71,8 @@ html(lang="en" itemtype="http://schema.org/WebPage" itemscope)
                                     | by 
                                     =book.author
                         
-                        .tags
-                            .tag.js-filter(data-filter=book.tags[0])=book.tags[0]
+                        //.tags
+                        //    .tag.js-filter(data-filter=book.tags[0])=book.tags[0]
                         
                         .recommenders
                             if book.quoracount
