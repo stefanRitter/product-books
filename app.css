@@ -8,7 +8,7 @@ html {
 @media (max-width: 980px) {
   body,
   html {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 h1,
@@ -172,10 +172,12 @@ main {
 }
 .recommenders-links {
   font-size: 19px;
-  font-weight: 100;
+  line-height: 1.5;
+  font-weight: 200;
   text-align: left;
   max-width: 1200px;
   margin: auto;
+  padding: 15px;
 }
 #books {
   margin: auto;
@@ -183,56 +185,83 @@ main {
   padding: 0;
   vertical-align: top;
 }
-.book {
+.book,
+.book-alert {
   display: inline-block;
   overflow: hidden;
   width: 300px;
-  height: 450px;
+  height: 480px;
   margin: 15px;
 }
-.book a {
+.book .rank,
+.book-alert .rank {
+  padding-bottom: 5px;
+}
+.book .rank i,
+.book-alert .rank i {
+  font-weight: 400;
+  font-size: 35px;
+}
+.book .rank span,
+.book-alert .rank span {
+  font-weight: 100;
+}
+.book a,
+.book-alert a {
   text-decoration: none;
   color: inherit;
 }
-.book .img-link span {
-  display: block;
-  margin-top: -5px;
-  color: #a9a9a9;
-  font-weight: 100;
-  font-size: 10px;
+.book .amazon-button,
+.book-alert .amazon-button {
+  display: inline-block;
+  color: White;
+  background: #ffa724;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid Black;
 }
-.book .book-title {
-  margin: 0;
-  color: #2fb3da;
+.book .book-title,
+.book-alert .book-title {
+  margin: 5px 0;
+  color: Black;
   font-size: 18px;
   height: 70px;
   vertical-align: middle;
 }
-.book .book-title .author {
+.book .book-title .author,
+.book-alert .book-title .author {
   font-weight: 100;
   font-size: 14px;
 }
-.book img {
+.book img,
+.book-alert img {
   width: auto;
   height: 230px;
 }
-.book .recommenders {
+.book .recommenders,
+.book-alert .recommenders {
   margin-top: 4px;
   font-weight: 100;
   font-size: 12px;
   height: 50px;
 }
-.book .recommenders span {
+.book .recommenders span,
+.book-alert .recommenders span {
   display: inline-block;
   text-decoration: underline;
   cursor: pointer;
   margin: 5px;
 }
-.book .tags {
-  margin: 8px 0 8px;
+.book .tags,
+.book-alert .tags {
+  margin: 5px 0 8px;
   text-align: center;
 }
-.book .tags .tag {
+.book .tags .tag,
+.book-alert .tags .tag {
   display: inline-block;
   background-color: #ffc0cb;
   color: #fff;
@@ -254,8 +283,8 @@ main {
   cursor: pointer;
   display: inline-block;
   background: #add8e6;
-  padding: 0 6px;
-  margin: 2px 0;
+  padding: 5px 11px;
+  margin: 5px;
 }
 .tag-filter.active {
   text-decoration: underline;
