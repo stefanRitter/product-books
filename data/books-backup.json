@@ -1,4 +1,36 @@
 [{
+    "title": "The Five Dysfunctions of a Team",
+    "author": "",
+    "amazonus": "",
+    "logo": ".png",
+    "tags": ["leadership"],
+    "quoracount": 2,
+    "recommends": []
+}, {
+    "title": "Innovation Games",
+    "author": "",
+    "amazonus": "",
+    "logo": ".png",
+    "tags": ["design"],
+    "quoracount": 2,
+    "recommends": []
+}, {
+    "title": "Dealing with Darwin",
+    "author": "",
+    "amazonus": "",
+    "logo": ".png",
+    "tags": ["leadership"],
+    "quoracount": 2,
+    "recommends": []
+}, {
+    "title": "Emotional Design",
+    "author": "",
+    "amazonus": "",
+    "logo": ".png",
+    "tags": ["design"],
+    "quoracount": 2,
+    "recommends": []
+}, {
     "title": "Business Adventures",
     "author": "John Brooks",
     "logo": "businessadventures.png",

@@ -447,42 +447,10 @@
     "quoracount": 2,
     "recommends": []
 }, {
-    "title": "The Five Dysfunctions of a Team",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
-    "tags": ["leadership"],
-    "quoracount": 2,
-    "recommends": []
-}, {
-    "title": "Innovation Games",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
-    "tags": ["design"],
-    "quoracount": 2,
-    "recommends": []
-}, {
     "title": "The Inmates Are Running the Asylum",
     "author": "Alan Cooper",
     "amazonus": "http://amzn.to/2pB1bqN",
     "logo": "inmatesrunningasylum.png",
-    "tags": ["design"],
-    "quoracount": 2,
-    "recommends": []
-}, {
-    "title": "Dealing with Darwin",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
-    "tags": ["leadership"],
-    "quoracount": 2,
-    "recommends": []
-}, {
-    "title": "Emotional Design",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
     "tags": ["design"],
     "quoracount": 2,
     "recommends": []
