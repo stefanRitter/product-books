@@ -55,34 +55,35 @@ html(lang="en" itemtype="http://schema.org/WebPage" itemscope)
                     each name in book.recommends
                         - classes += ' '+name.replace(' ', '-')
                     
-                    .book(class=classes)
-                        a.img-link(href=book.amazonus target="_blank")
-                            img(src=book.logo alt=book.title)
-                            span buy on amazon.com
-                        .tags
-                            .tag.js-filter(data-filter=book.tags[0])=book.tags[0]
+                    if book.logo != '.png'
+                        .book(class=classes)
+                            a.img-link(href=book.amazonus target="_blank")
+                                img(src=book.logo alt=book.title)
+                                span buy on amazon.com
+                            .tags
+                                .tag.js-filter(data-filter=book.tags[0])=book.tags[0]
 
-                        .book-title
-                            a(href=book.amazonus target="_blank")
-                                =book.title
-                                br
-                                span.author
-                                    | by 
-                                    =book.author
+                            .book-title
+                                a(href=book.amazonus target="_blank")
+                                    =book.title
+                                    br
+                                    span.author
+                                        | by 
+                                        =book.author
 
-                        .recommenders
-                            if book.recommends.length > 1
-                                =book.recommends.length
-                                |  recommendations:
-                                br
-                            if book.recommends.length == 1 
-                                |  1 recommendation: 
-                            each name in book.recommends
-                                span.js-filter(data-filter=name.replace(' ', '-'))=name
-                            if book.quoracount
-                                br
-                                | Quora mentions: 
-                                = book.quoracount
+                            .recommenders
+                                if book.recommends.length > 1
+                                    =book.recommends.length
+                                    |  recommendations:
+                                    br
+                                if book.recommends.length == 1 
+                                    |  1 recommendation: 
+                                each name in book.recommends
+                                    span.js-filter(data-filter=name.replace(' ', '-'))=name
+                                if book.quoracount
+                                    br
+                                    | Quora mentions: 
+                                    = book.quoracount
 
             .clear-both
 

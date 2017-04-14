@@ -88,6 +88,9 @@
     "recommends": ["Simon Cross", "Tomasz Tunguz"]
 }, {
     "title": "Influence: The Psychology of Persuasion",
+    "author": "Robert Cialdini",
+    "amazonus": "http://amzn.to/2phNo9x",
+    "logo": "influence.png",
     "tags": ["communication"],
     "quoracount": 5,
     "recommends": ["Teresa Torres"]
@@ -253,25 +256,25 @@
     "recommends": []
 }, {
     "title": "Running Lean",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
-    "tags": ["business"],
+    "author": "Ash Maurya",
+    "amazonus": "http://amzn.to/2ou7ayf",
+    "logo": "runninglean.png",
+    "tags": ["product-management"],
     "quoracount": 3,
     "recommends": []
 }, {
     "title": "Agile Product Management with Scrum",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
+    "author": "Roman Pichler",
+    "amazonus": "http://amzn.to/2ou7j4L",
+    "logo": "agileproductdev.png",
     "tags": ["product-management"],
     "quoracount": 3,
     "recommends": []
 }, {
     "title": "Getting Real",
     "author": "37 Signals",
-    "amazonus": "",
-    "logo": ".png",
+    "amazonus": "http://amzn.to/2pAKA6r",
+    "logo": "gettingreal.png",
     "tags": ["leadership"],
     "quoracount": 3,
     "recommends": []
@@ -372,18 +375,18 @@
     "quoracount": 1,
     "recommends": ["Tomasz Tunguz"]
 }, {
-    "title": "Where good ideas come from",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
+    "title": "Where Good Ideas Come From",
+    "author": "Steven Johnson",
+    "amazonus": "http://amzn.to/2of1GWw",
+    "logo": "wheregoodideascomefrom.png",
     "tags": ["leadership"],
     "quoracount": 1,
     "recommends": ["Bill Gates"]
 }, {
-    "title": "It’s your Ship",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
+    "title": "It's Your Ship",
+    "author": "D. Michael Abrashoff",
+    "amazonus": "http://amzn.to/2pAJTub",
+    "logo": "yourship.png",
     "tags": ["leadership"],
     "quoracount": 1,
     "recommends": ["Simon Cross"]
@@ -396,10 +399,10 @@
     "quoracount": 1,
     "recommends": ["Noah Weiss"]
 }, {
-    "title": "The score takes care of itself",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
+    "title": "The Score Takes Care of Itself",
+    "author": "Bill Walsh",
+    "amazonus": "http://amzn.to/2pAOZq6",
+    "logo": "scoretakescare.png",
     "tags": ["leadership"],
     "quoracount": 1,
     "recommends": ["Simon Cross"]
@@ -429,17 +432,17 @@
     "recommends": ["Ken Norton"]
 }, {
     "title": "What Customers Want",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
+    "author": "Anthony Ulwick",
+    "amazonus": "http://amzn.to/2oH2TKi",
+    "logo": "whatcustomerswant.png",
     "tags": ["empathy"],
     "quoracount": 2,
     "recommends": []
 }, {
     "title": "Lean Analytics",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
+    "author": "Alistair Croll and Benjamin Yoskovitz",
+    "amazonus": "http://amzn.to/2oumPhi",
+    "logo": "leananalytics.png",
     "tags": ["analytics"],
     "quoracount": 2,
     "recommends": []
@@ -461,9 +464,9 @@
     "recommends": []
 }, {
     "title": "The Inmates Are Running the Asylum",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
+    "author": "Alan Cooper",
+    "amazonus": "http://amzn.to/2pB1bqN",
+    "logo": "inmatesrunningasylum.png",
     "tags": ["design"],
     "quoracount": 2,
     "recommends": []
