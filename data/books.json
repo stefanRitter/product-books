@@ -111,6 +111,14 @@
     "quoracount": 4,
     "recommends": ["Teresa Torres"]
 }, {
+    "title": "Creativity, Inc",
+    "author": "Ed Catmull",
+    "logo": "creativityinc.png",
+    "tags": ["leadership"],
+    "amazonus": "http://amzn.to/2oZUYbU",
+    "quoracount": 1,
+    "recommends": ["Ken Norton", "Mark Zuckerberg", "Simon Cross"]
+}, {
     "title": "Steve Jobs",
     "author": "Walter Isaacson",
     "logo": "stevejobs.png",
@@ -119,13 +127,21 @@
     "quoracount": 1,
     "recommends": ["Bill Gates", "Ken Norton", "Simon Cross"]
 }, {
-    "title": "Creativity, Inc",
-    "author": "Ed Catmull",
-    "logo": "creativityinc.png",
-    "tags": ["leadership"],
-    "amazonus": "http://amzn.to/2oZUYbU",
-    "quoracount": 1,
-    "recommends": ["Ken Norton", "Mark Zuckerberg", "Simon Cross"]
+    "title": "How to Lie with Statistics",
+    "author": "Darrell Huff",
+    "logo": "liewithstatistics.png",
+    "tags": ["analytics"],
+    "amazonus": "http://amzn.to/2nHpmHv",
+    "quoracount": 2,
+    "recommends": ["Bill Gates", "Ken Norton"]
+}, {
+    "title": "Freakonomics",
+    "author": "Steven Levitt and Stephen Dubner",
+    "amazonus": "http://amzn.to/2p2nppw",
+    "logo": "freakonomics.png",
+    "tags": ["business"],
+    "quoracount": 2,
+    "recommends": ["Bill Gates", "Simon Cross"]
 }, {
     "title": "Getting Things Done",
     "author": "David Allen",
@@ -151,6 +167,14 @@
     "quoracount": 3,
     "recommends": ["Simon Cross"]
 }, {
+    "title": "Drive",
+    "author": "Daniel H. Pink",
+    "amazonus": "http://amzn.to/2p2Jswa",
+    "logo": "drive.png",
+    "tags": ["communication"],
+    "quoracount": 4,
+    "recommends": []
+}, {
     "title": "The Principles of Product Development Flow",
     "author": "Donald Reinertsen",
     "amazonus": "http://amzn.to/2oeBg7f",
@@ -158,14 +182,6 @@
     "tags": ["product-management"],
     "quoracount": 4,
     "recommends": []
-}, {
-    "title": "Predictably Irrational",
-    "author": "Dan Ariely",
-    "logo": "predictablyirrational.png",
-    "tags": ["empathy"],
-    "amazonus": "http://amzn.to/2oqtyIQ",
-    "quoracount": 1,
-    "recommends": ["Ken Norton", "Simon Cross"]
 }, {
     "title": "Getting To Yes & Getting Past No",
     "author": "Roger Fisher and William Ury",
@@ -183,14 +199,6 @@
     "quoracount": 1,
     "recommends": ["Ken Norton", "Noah Weiss"]
 }, {
-    "title": "The Everything Store: Jeff Bezos and the Age of Amazon",
-    "author": "Brad Stone",
-    "logo": "everythingstore.png",
-    "tags": ["biography"],
-    "amazonus": "http://amzn.to/2pbxrBm",
-    "quoracount": 1,
-    "recommends": ["Noah Weiss", "Simon Cross"]
-}, {
     "title": "Inside the Tornado",
     "author": "Geoffrey Moore",
     "logo": "insidethetornado.png",
@@ -199,13 +207,21 @@
     "quoracount": 1,
     "recommends": ["Ken Norton", "Steve Jobs"]
 }, {
-    "title": "The Lean Product Playbook",
-    "author": "Dan Olsen",
-    "logo": "leanproductplaybook.png",
-    "tags": ["product-management"],
-    "amazonus": "http://amzn.to/2oqr9Oj",
-    "quoracount": 2,
-    "recommends": ["Ken Norton"]
+    "title": "The Everything Store: Jeff Bezos and the Age of Amazon",
+    "author": "Brad Stone",
+    "logo": "everythingstore.png",
+    "tags": ["biography"],
+    "amazonus": "http://amzn.to/2pbxrBm",
+    "quoracount": 1,
+    "recommends": ["Noah Weiss", "Simon Cross"]
+}, {
+    "title": "Predictably Irrational",
+    "author": "Dan Ariely",
+    "logo": "predictablyirrational.png",
+    "tags": ["empathy"],
+    "amazonus": "http://amzn.to/2oqtyIQ",
+    "quoracount": 1,
+    "recommends": ["Ken Norton", "Simon Cross"]
 }, {
     "title": "The Mythical Man-Month",
     "author": "Frederick Brooks",
@@ -215,13 +231,21 @@
     "quoracount": 2,
     "recommends": ["Ken Norton"]
 }, {
-    "title": "Freakonomics",
-    "author": "Steven Levitt and Stephen Dubner",
-    "amazonus": "http://amzn.to/2p2nppw",
-    "logo": "freakonomics.png",
-    "tags": ["business"],
+    "title": "How to Measure Anything",
+    "author": "Douglas Hubbard",
+    "logo": "howtomeasure.png",
+    "tags": ["analytics"],
+    "amazonus": "http://amzn.to/2oqOmA4",
     "quoracount": 2,
     "recommends": ["Simon Cross"]
+}, {
+    "title": "The Lean Product Playbook",
+    "author": "Dan Olsen",
+    "logo": "leanproductplaybook.png",
+    "tags": ["product-management"],
+    "amazonus": "http://amzn.to/2oqr9Oj",
+    "quoracount": 2,
+    "recommends": ["Ken Norton"]
 }, {
     "title": "Viral Loop",
     "author": "Adam Penenberg",
@@ -239,27 +263,11 @@
     "quoracount": 2,
     "recommends": ["Ken Norton"]
 }, {
-    "title": "How to Measure Anything",
-    "author": "Douglas Hubbard",
-    "logo": "howtomeasure.png",
-    "tags": ["analytics"],
-    "amazonus": "http://amzn.to/2oqOmA4",
-    "quoracount": 2,
-    "recommends": ["Simon Cross"]
-}, {
-    "title": "Drive",
-    "author": "Daniel H. Pink",
-    "amazonus": "http://amzn.to/2p2Jswa",
-    "logo": "drive.png",
-    "tags": ["communication"],
-    "quoracount": 3,
-    "recommends": []
-}, {
-    "title": "Agile Product Management with Scrum",
-    "author": "Roman Pichler",
-    "amazonus": "http://amzn.to/2ou7j4L",
-    "logo": "agileproductdev.png",
-    "tags": ["product-management"],
+    "title": "Getting Real",
+    "author": "37 Signals",
+    "amazonus": "http://amzn.to/2pAKA6r",
+    "logo": "gettingreal.png",
+    "tags": ["leadership"],
     "quoracount": 3,
     "recommends": []
 }, {
@@ -271,11 +279,11 @@
     "quoracount": 3,
     "recommends": []
 }, {
-    "title": "Getting Real",
-    "author": "37 Signals",
-    "amazonus": "http://amzn.to/2pAKA6r",
-    "logo": "gettingreal.png",
-    "tags": ["leadership"],
+    "title": "Agile Product Management with Scrum",
+    "author": "Roman Pichler",
+    "amazonus": "http://amzn.to/2ou7j4L",
+    "logo": "agileproductdev.png",
+    "tags": ["product-management"],
     "quoracount": 3,
     "recommends": []
 }, {
@@ -295,14 +303,6 @@
     "quoracount": 0,
     "recommends": ["Ben Horowitz", "Steve Jobs"]
 }, {
-    "title": "How to Lie with Statistics",
-    "author": "Darrell Huff",
-    "logo": "liewithstatistics.png",
-    "tags": ["analytics"],
-    "amazonus": "http://amzn.to/2nHpmHv",
-    "quoracount": 0,
-    "recommends": ["Bill Gates", "Ken Norton"]
-}, {
     "title": "How to Win Friends and Influence People",
     "author": "Dale Carnegie",
     "logo": "howtowinfriends.png",
@@ -310,6 +310,14 @@
     "amazonus": "http://amzn.to/2o8jFi2",
     "quoracount": 0,
     "recommends": ["Buffer Blog", "Noah Weiss"]
+}, {
+    "title": "On Writing",
+    "author": "Stephen King",
+    "logo": "onwriting.png",
+    "tags": ["communication"],
+    "amazonus": "http://amzn.to/2oqry3k",
+    "quoracount": 0,
+    "recommends": ["Ken Norton", "Noah Weiss"]
 }, {
     "title": "Mindset: The New Psychology of Success",
     "author": "Carol S. Dweck",
@@ -327,70 +335,6 @@
     "quoracount": 0,
     "recommends": ["Ben Horowitz", "Bill Gates"]
 }, {
-    "title": "On Writing",
-    "author": "Stephen King",
-    "logo": "onwriting.png",
-    "tags": ["communication"],
-    "amazonus": "http://amzn.to/2oqry3k",
-    "quoracount": 0,
-    "recommends": ["Ken Norton", "Noah Weiss"]
-}, {
-    "title": "Predictable Revenue",
-    "author": "Aaron Ross and Marylou Tyler",
-    "logo": "predictablerevenue.png",
-    "tags": ["growth"],
-    "amazonus": "http://amzn.to/2pwQTIi",
-    "quoracount": 1,
-    "recommends": ["Tomasz Tunguz"]
-}, {
-    "title": "Work Rules!",
-    "author": "Laszlo Bock",
-    "logo": "workrules.png",
-    "tags": ["leadership"],
-    "amazonus": "http://amzn.to/2nHwR16",
-    "quoracount": 1,
-    "recommends": ["Ken Norton"]
-}, {
-    "title": "Where Good Ideas Come From",
-    "author": "Steven Johnson",
-    "amazonus": "http://amzn.to/2of1GWw",
-    "logo": "wheregoodideascomefrom.png",
-    "tags": ["leadership"],
-    "quoracount": 1,
-    "recommends": ["Bill Gates"]
-}, {
-    "title": "Competing Against Luck",
-    "author": "Clayton Christensen",
-    "logo": "competingagainstluck.png",
-    "tags": ["business"],
-    "amazonus": "http://amzn.to/2o8sYOW",
-    "quoracount": 1,
-    "recommends": ["Ken Norton"]
-}, {
-    "title": "To Sell Is Human",
-    "author": "Daniel H. Pink",
-    "logo": "tosellishuman.png",
-    "tags": ["growth"],
-    "amazonus": "http://amzn.to/2p09K2i",
-    "quoracount": 1,
-    "recommends": ["Tomasz Tunguz"]
-}, {
-    "title": "The Halo Effect",
-    "author": "Phil Rosenzweig",
-    "logo": "haloeffect.png",
-    "tags": ["leadership"],
-    "amazonus": "http://amzn.to/2p0fh9d",
-    "quoracount": 1,
-    "recommends": ["Ken Norton"]
-}, {
-    "title": "The Visual Display of Quantitative Information",
-    "author": "Edward R. Tufte",
-    "logo": "visualdisplay.png",
-    "tags": ["analytics"],
-    "amazonus": "http://amzn.to/2nHxIik",
-    "quoracount": 1,
-    "recommends": ["Noah Weiss"]
-}, {
     "title": "The Score Takes Care of Itself",
     "author": "Bill Walsh",
     "amazonus": "http://amzn.to/2pAOZq6",
@@ -406,6 +350,30 @@
     "amazonus": "http://amzn.to/2nHK0Yn",
     "quoracount": 1,
     "recommends": ["Ben Horowitz"]
+}, {
+    "title": "The Halo Effect",
+    "author": "Phil Rosenzweig",
+    "logo": "haloeffect.png",
+    "tags": ["leadership"],
+    "amazonus": "http://amzn.to/2p0fh9d",
+    "quoracount": 1,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Where Good Ideas Come From",
+    "author": "Steven Johnson",
+    "amazonus": "http://amzn.to/2of1GWw",
+    "logo": "wheregoodideascomefrom.png",
+    "tags": ["leadership"],
+    "quoracount": 1,
+    "recommends": ["Bill Gates"]
+}, {
+    "title": "Beautiful Evidence",
+    "author": "Edward R. Tufte",
+    "logo": "beautifulevidence.png",
+    "tags": ["analytics"],
+    "amazonus": "http://amzn.to/2ouMJDd",
+    "quoracount": 1,
+    "recommends": ["Noah Weiss"]
 }, {
     "title": "Positioning",
     "author": "Al Ries and Jack Trout",
@@ -423,18 +391,50 @@
     "quoracount": 1,
     "recommends": ["Simon Cross"]
 }, {
-    "title": "Beautiful Evidence",
+    "title": "Predictable Revenue",
+    "author": "Aaron Ross and Marylou Tyler",
+    "logo": "predictablerevenue.png",
+    "tags": ["growth"],
+    "amazonus": "http://amzn.to/2pwQTIi",
+    "quoracount": 1,
+    "recommends": ["Tomasz Tunguz"]
+}, {
+    "title": "To Sell Is Human",
+    "author": "Daniel H. Pink",
+    "logo": "tosellishuman.png",
+    "tags": ["growth"],
+    "amazonus": "http://amzn.to/2p09K2i",
+    "quoracount": 1,
+    "recommends": ["Tomasz Tunguz"]
+}, {
+    "title": "The Visual Display of Quantitative Information",
     "author": "Edward R. Tufte",
-    "logo": "beautifulevidence.png",
+    "logo": "visualdisplay.png",
     "tags": ["analytics"],
-    "amazonus": "http://amzn.to/2ouMJDd",
+    "amazonus": "http://amzn.to/2nHxIik",
     "quoracount": 1,
     "recommends": ["Noah Weiss"]
 }, {
-    "title": "The Inmates Are Running the Asylum",
-    "author": "Alan Cooper",
-    "amazonus": "http://amzn.to/2pB1bqN",
-    "logo": "inmatesrunningasylum.png",
+    "title": "Competing Against Luck",
+    "author": "Clayton Christensen",
+    "logo": "competingagainstluck.png",
+    "tags": ["business"],
+    "amazonus": "http://amzn.to/2o8sYOW",
+    "quoracount": 1,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Work Rules!",
+    "author": "Laszlo Bock",
+    "logo": "workrules.png",
+    "tags": ["leadership"],
+    "amazonus": "http://amzn.to/2nHwR16",
+    "quoracount": 1,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Badass: Making Users Awesome",
+    "author": "Kathy Sierra",
+    "amazonus": "http://amzn.to/2p4XX2B",
+    "logo": "badass.png",
     "tags": ["design"],
     "quoracount": 2,
     "recommends": []
@@ -455,6 +455,14 @@
     "quoracount": 2,
     "recommends": []
 }, {
+    "title": "The Inmates Are Running the Asylum",
+    "author": "Alan Cooper",
+    "amazonus": "http://amzn.to/2pB1bqN",
+    "logo": "inmatesrunningasylum.png",
+    "tags": ["design"],
+    "quoracount": 2,
+    "recommends": []
+}, {
     "title": "Quiet: The Power of Introverts",
     "author": "Susan Cain",
     "logo": "quiet.png",
@@ -463,19 +471,19 @@
     "quoracount": 0,
     "recommends": ["Ken Norton"]
 }, {
-    "title": "Focus",
-    "author": "Al Ries",
-    "logo": "focus.png",
-    "tags": ["growth"],
-    "amazonus": "http://amzn.to/2nHx18I",
-    "quoracount": 0,
-    "recommends": ["Ben Horowitz"]
-}, {
     "title": "Meaningful: the Story of Ideas that Fly",
     "author": "Bernadette Jiwa",
     "logo": "meaningful.png",
     "tags": ["communication"],
     "amazonus": "http://amzn.to/2nHxPe1",
+    "quoracount": 0,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Team of Rivals",
+    "author": "Doris Kearns Goodwin",
+    "logo": "teamofrivals.png",
+    "tags": ["leadership"],
+    "amazonus": "http://amzn.to/2oqzwK2",
     "quoracount": 0,
     "recommends": ["Ken Norton"]
 }, {
@@ -487,19 +495,19 @@
     "quoracount": 0,
     "recommends": ["Noah Weiss"]
 }, {
-    "title": "Naked Statistics",
-    "author": "Charles Wheelan",
-    "logo": "nakedstatistics.png",
-    "tags": ["analytics"],
-    "amazonus": "http://amzn.to/2pbxygi",
-    "quoracount": 0,
-    "recommends": ["Noah Weiss"]
-}, {
     "title": "Managing Humans",
     "author": "Michael Lopp",
     "logo": "managinghumans.png",
     "tags": ["leadership"],
     "amazonus": "http://amzn.to/2ouYFon",
+    "quoracount": 0,
+    "recommends": ["Noah Weiss"]
+}, {
+    "title": "Naked Statistics",
+    "author": "Charles Wheelan",
+    "logo": "nakedstatistics.png",
+    "tags": ["analytics"],
+    "amazonus": "http://amzn.to/2pbxygi",
     "quoracount": 0,
     "recommends": ["Noah Weiss"]
 }, {
@@ -511,19 +519,19 @@
     "quoracount": 0,
     "recommends": ["Simon Cross"]
 }, {
-    "title": "Ogilvy on Advertising",
-    "author": "David Ogilvy",
-    "logo": "ogliviyonads.png",
+    "title": "Focus",
+    "author": "Al Ries",
+    "logo": "focus.png",
     "tags": ["growth"],
-    "amazonus": "http://amzn.to/2oqaZos",
+    "amazonus": "http://amzn.to/2nHx18I",
     "quoracount": 0,
-    "recommends": ["Alex Schultz"]
+    "recommends": ["Ben Horowitz"]
 }, {
-    "title": "Team of Rivals",
-    "author": "Doris Kearns Goodwin",
-    "logo": "teamofrivals.png",
-    "tags": ["leadership"],
-    "amazonus": "http://amzn.to/2oqzwK2",
+    "title": "Sprint",
+    "author": "Jake Knapp",
+    "logo": "sprint.png",
+    "tags": ["design"],
+    "amazonus": "http://amzn.to/2o85QAm",
     "quoracount": 0,
     "recommends": ["Ken Norton"]
 }, {
@@ -535,11 +543,11 @@
     "quoracount": 0,
     "recommends": ["Ken Norton"]
 }, {
-    "title": "Sprint",
-    "author": "Jake Knapp",
-    "logo": "sprint.png",
-    "tags": ["design"],
-    "amazonus": "http://amzn.to/2o85QAm",
+    "title": "Ogilvy on Advertising",
+    "author": "David Ogilvy",
+    "logo": "ogliviyonads.png",
+    "tags": ["growth"],
+    "amazonus": "http://amzn.to/2oqaZos",
     "quoracount": 0,
-    "recommends": ["Ken Norton"]
+    "recommends": ["Alex Schultz"]
 }]

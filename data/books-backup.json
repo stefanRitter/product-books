@@ -37,7 +37,7 @@
     "tags": ["business"],
     "amazonus": "http://amzn.to/2p02e7D",
     "quoracount": 0,
-    "recommends": ["Bill Gates"]
+    "recommends": ["Warren Buffett", "Bill Gates"]
 }, {
     "title": "Stragetic Storytelling",
     "author": "",
@@ -124,14 +124,6 @@
     "amazonus": "",
     "logo": ".png",
     "tags": ["growth"],
-    "quoracount": 1,
-    "recommends": []
-}, {
-    "title": "Badass: Making Users Awesome",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
-    "tags": ["design"],
     "quoracount": 1,
     "recommends": []
 }, {
