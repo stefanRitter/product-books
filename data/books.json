@@ -63,14 +63,6 @@
     "quoracount": 7,
     "recommends": ["Ryan Hoover"]
 }, {
-    "title": "Cracking the PM Interview",
-    "author": "Gayle McDowell and Jackie Bavaro",
-    "logo": "crackingpminterview.png",
-    "tags": ["interviewing"],
-    "amazonus": "http://amzn.to/2paoc7I",
-    "quoracount": 6,
-    "recommends": ["Noah Weiss"]
-}, {
     "title": "Thinking, Fast and Slow",
     "author": "Daniel Kahneman",
     "logo": "thinkingfastandslow.png",
@@ -78,6 +70,14 @@
     "amazonus": "http://amzn.to/2oqlDvh",
     "quoracount": 3,
     "recommends": ["Julie Zhuo", "Ken Norton", "Simon Cross", "Stewart Butterfield"]
+}, {
+    "title": "Cracking the PM Interview",
+    "author": "Gayle McDowell and Jackie Bavaro",
+    "logo": "crackingpminterview.png",
+    "tags": ["interviewing"],
+    "amazonus": "http://amzn.to/2paoc7I",
+    "quoracount": 6,
+    "recommends": ["Noah Weiss"]
 }, {
     "title": "Don't Make Me Think",
     "author": "Steve Krug",
