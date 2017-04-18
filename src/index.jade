@@ -61,8 +61,8 @@ html(lang="en" itemtype="http://schema.org/WebPage" itemscope)
                         
                         a.img-link(href=book.amazonus target="_blank")
                             img(src=book.logo alt=book.title)
-                            br
-                            span.amazon-button more on amazon.com
+                            //br
+                            //span.amazon-button more on amazon.com
 
                         .book-title
                             a(href=book.amazonus target="_blank")
@@ -97,5 +97,8 @@ html(lang="en" itemtype="http://schema.org/WebPage" itemscope)
             p
                 | Missing a book? 
                 a(href="mailto:hello@product-books.com") Please email us your suggestion!
-        
+            
+            p(style="margin: 60px auto; max-width:1000px").
+                We are a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for us to earn fees by linking to Amazon.com and affiliated sites.
+                
         include shared/_scripts.jade
