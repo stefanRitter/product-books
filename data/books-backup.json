@@ -1,36 +1,4 @@
 [{
-    "title": "The Five Dysfunctions of a Team",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
-    "tags": ["leadership"],
-    "quoracount": 2,
-    "recommends": []
-}, {
-    "title": "Innovation Games",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
-    "tags": ["design"],
-    "quoracount": 2,
-    "recommends": []
-}, {
-    "title": "Dealing with Darwin",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
-    "tags": ["leadership"],
-    "quoracount": 2,
-    "recommends": []
-}, {
-    "title": "Emotional Design",
-    "author": "",
-    "amazonus": "",
-    "logo": ".png",
-    "tags": ["design"],
-    "quoracount": 2,
-    "recommends": []
-}, {
     "title": "Business Adventures",
     "author": "John Brooks",
     "logo": "businessadventures.png",
@@ -38,6 +6,86 @@
     "amazonus": "http://amzn.to/2p02e7D",
     "quoracount": 0,
     "recommends": ["Warren Buffett", "Bill Gates"]
+}, {
+    "title": "Focus",
+    "author": "Al Ries",
+    "logo": "focus.png",
+    "tags": ["growth"],
+    "amazonus": "https://www.amazon.com/gp/product/0060799900/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0060799900&linkId=78c48b3ae17aaa9ce158fbe451ef906a",
+    "quoracount": 0,
+    "recommends": ["Ben Horowitz"]
+}, {
+    "title": "Meaningful: the Story of Ideas that Fly",
+    "author": "Bernadette Jiwa",
+    "logo": "meaningful.png",
+    "tags": ["communication"],
+    "amazonus": "https://www.amazon.com/gp/product/0994432801/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0994432801&linkId=8ca351e5a6bf0aaf6e150b3eb9a2690b",
+    "quoracount": 0,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Venture Deals: Be Smarter Than Your Lawyer and VC",
+    "author": "Brad Feld and Jason Mendelson",
+    "logo": "venturedeals.png",
+    "tags": ["business"],
+    "amazonus": "https://www.amazon.com/gp/product/1119259754/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1119259754&linkId=d9781ac6ba48166dc01c68a2378e1947",
+    "quoracount": 0,
+    "recommends": ["Noah Weiss"]
+}, {
+    "title": "Team of Rivals",
+    "author": "Doris Kearns Goodwin",
+    "logo": "teamofrivals.png",
+    "tags": ["leadership"],
+    "amazonus": "https://www.amazon.com/gp/product/0743270754/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0743270754&linkId=f6ad8258b2ed97b50d99e78843be2f73",
+    "quoracount": 0,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Managing Humans",
+    "author": "Michael Lopp",
+    "logo": "managinghumans.png",
+    "tags": ["leadership"],
+    "amazonus": "https://www.amazon.com/gp/product/1484221575/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1484221575&linkId=fb8b292001f5e0d68b321c3842003375",
+    "quoracount": 0,
+    "recommends": ["Noah Weiss"]
+}, {
+    "title": "What Every BODY is Saying",
+    "author": "Joe Navarro",
+    "logo": "whateverybody.png",
+    "tags": ["empathy"],
+    "amazonus": "https://www.amazon.com/gp/product/0061438294/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0061438294&linkId=1041bc32a1a0972d76bdeb47a7bff367",
+    "quoracount": 0,
+    "recommends": ["Simon Cross"]
+}, {
+    "title": "Quiet: The Power of Introverts",
+    "author": "Susan Cain",
+    "logo": "quiet.png",
+    "tags": ["empathy"],
+    "amazonus": "https://www.amazon.com/gp/product/0307352153/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0307352153&linkId=c5e979185da0a915759346be3578bf08",
+    "quoracount": 0,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Ogilvy on Advertising",
+    "author": "David Ogilvy",
+    "logo": "ogliviyonads.png",
+    "tags": ["growth"],
+    "amazonus": "https://www.amazon.com/gp/product/039472903X/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=039472903X&linkId=65fbb4d1f67dacf0d9f5d25373e447f8",
+    "quoracount": 0,
+    "recommends": ["Alex Schultz"]
+}, {
+    "title": "Yes to the Mess: Surprising Leadership Lessons from Jazz",
+    "author": "Frank Barrett",
+    "logo": "yestothemess.png",
+    "tags": ["leadership"],
+    "amazonus": "https://www.amazon.com/gp/product/1422161102/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1422161102&linkId=02cb52b5141730e1324a23f1bf6b3dc6",
+    "quoracount": 0,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "Naked Statistics",
+    "author": "Charles Wheelan",
+    "logo": "nakedstatistics.png",
+    "tags": ["analytics"],
+    "amazonus": "https://www.amazon.com/gp/product/039334777X/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=039334777X&linkId=45b4e58b1fcdb28a58ddafa25b0e586c",
+    "quoracount": 0,
+    "recommends": ["Noah Weiss"]
 }, {
     "title": "Stragetic Storytelling",
     "author": "",
