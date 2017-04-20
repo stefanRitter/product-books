@@ -1,7 +1,7 @@
 [{
     "title": "The Lean Startup",
     "author": "Eric Ries",
-    "logo": "leanstartup.png",
+    "logo": "leanstartup.jpg",
     "tags": ["business"],
     "amazonus": "https://www.amazon.com/gp/product/0307887898/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0307887898&linkId=e919abad787ceab99f352ed41de7cc23",
     "quoracount": 15,
@@ -9,7 +9,7 @@
 }, {
     "title": "The Design of Everyday Things",
     "author": "Donald Norman",
-    "logo": "designofeverydaythings.png",
+    "logo": "designofeverydaythings.jpg",
     "tags": ["design"],
     "amazonus": "https://www.amazon.com/gp/product/0465050654/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0465050654&linkId=b866b9de3bad81d5abae8b402158c387",
     "quoracount": 12,
@@ -17,7 +17,7 @@
 }, {
     "title": "Inspired",
     "author": "Marty Cagan",
-    "logo": "inspired.png",
+    "logo": "inspired.jpg",
     "tags": ["product-management"],
     "amazonus": "https://www.amazon.com/gp/product/0981690408/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0981690408&linkId=2a3130029d8f4e203e17f7761e638ff2",
     "quoracount": 13,
@@ -25,7 +25,7 @@
 }, {
     "title": "The Innovator's Dilemma",
     "author": "Clayton Christensen",
-    "logo": "innovatorsdilemma.png",
+    "logo": "innovatorsdilemma.jpg",
     "tags": ["business"],
     "amazonus": "https://www.amazon.com/gp/product/1633691780/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1633691780&linkId=775d8a1dfe01e6cdd3edfa72aed8b91d",
     "quoracount": 6,
@@ -33,7 +33,7 @@
 }, {
     "title": "Crossing the Chasm",
     "author": "Geoffrey Moore",
-    "logo": "crossingthechasm.png",
+    "logo": "crossingthechasm.jpg",
     "tags": ["growth"],
     "amazonus": "https://www.amazon.com/gp/product/0062292986/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0062292986&linkId=625ca3bee54afa755ef4f2aa821ef0d8",
     "quoracount": 8,
@@ -41,7 +41,7 @@
 }, {
     "title": "The Hard Thing About Hard Things",
     "author": "Ben Horowitz",
-    "logo": "hardthingabouthardthings.png",
+    "logo": "hardthingabouthardthings.jpg",
     "tags": ["leadership"],
     "amazonus": "https://www.amazon.com/gp/product/0062273205/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0062273205&linkId=9bb1edf72d31b3310a50a5306a6e7b4d",
     "quoracount": 5,
@@ -49,7 +49,7 @@
 }, {
     "title": "High Output Management",
     "author": "Andy Grove",
-    "logo": "highoutput.png",
+    "logo": "highoutput.jpg",
     "tags": ["leadership"],
     "amazonus": "https://www.amazon.com/gp/product/0679762884/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0679762884&linkId=7ad958eefc895d1bc4c50c4a3a8e01e3",
     "quoracount": 2,
@@ -57,7 +57,7 @@
 }, {
     "title": "The Four Steps to the Epiphany",
     "author": "Steve Blank",
-    "logo": "fourstepstoepiphany.png",
+    "logo": "fourstepstoepiphany.jpg",
     "tags": ["product-management"],
     "amazonus": "https://www.amazon.com/gp/product/0989200507/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0989200507&linkId=7300e2c9b4be6df4e8027e5bfc598b12",
     "quoracount": 7,
@@ -65,7 +65,7 @@
 }, {
     "title": "Thinking, Fast and Slow",
     "author": "Daniel Kahneman",
-    "logo": "thinkingfastandslow.png",
+    "logo": "thinkingfastandslow.jpg",
     "tags": ["empathy"],
     "amazonus": "https://www.amazon.com/gp/product/0374533555/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0374533555&linkId=ccbef39b84f81777afaf4bb776f6a215",
     "quoracount": 3,
@@ -73,7 +73,7 @@
 }, {
     "title": "Cracking the PM Interview",
     "author": "Gayle McDowell and Jackie Bavaro",
-    "logo": "crackingpminterview.png",
+    "logo": "crackingpminterview.jpg",
     "tags": ["interviewing"],
     "amazonus": "https://www.amazon.com/gp/product/0984782818/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0984782818&linkId=d5cc2ae971e7f160854218dfebcec24c",
     "quoracount": 6,
@@ -81,7 +81,7 @@
 }, {
     "title": "Don't Make Me Think",
     "author": "Steve Krug",
-    "logo": "dontmakemethink.png",
+    "logo": "dontmakemethink.jpg",
     "tags": ["design"],
     "amazonus": "https://www.amazon.com/gp/product/0321965515/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0321965515&linkId=4dce20959bc08524562b4b42cc254297",
     "quoracount": 4,
