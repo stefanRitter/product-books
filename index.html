@@ -26,7 +26,331 @@
     <link rel="shortcut icon" href="logo.png">
     <link rel="apple-touch-icon-precomposed" href="logo.png">
     <link rel="canonical" href="https://product-books.com">
-    <link href="app.css" rel="stylesheet" type="text/css">
+    <!--link(href='app.css' rel='stylesheet' type='text/css')-->
+    <style type='text/css'>body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+@media (max-width: 980px) {
+  body,
+  html {
+    font-size: 16px;
+  }
+}
+h1,
+h2 {
+  font-weight: 400;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.3em;
+  margin: 0;
+}
+main {
+  margin: auto;
+  text-align: center;
+}
+.phone-only {
+  display: none;
+}
+@media (max-width: 460px) {
+  .phone-only {
+    display: block !important;
+  }
+}
+.clear-both {
+  clear: both;
+  padding-top: 2em;
+}
+.title {
+  color: White;
+  background: #2fb3da;
+  text-align: center;
+  margin-top: 0;
+}
+.title h2,
+.title p {
+  max-width: 650px;
+  margin: 0 auto;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.title p {
+  padding: 1em 10px 2em;
+  text-align: justify;
+}
+.title h2 {
+  padding: 5px 10px 2em;
+  line-height: 1.3;
+  font-size: 26px;
+}
+@media (max-width: 460px) {
+  .title h2 {
+    font-size: 1em;
+  }
+}
+.title h1 {
+  margin: 0;
+  padding: 1em 10px 0.5em;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+@media (max-width: 460px) {
+  .title h1 {
+    padding: 0.5em 0 0 0;
+  }
+}
+.title h1 img {
+  vertical-align: middle;
+  height: 2em;
+}
+.title h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+@media (max-width: 460px) {
+  .title h1 em {
+    font-size: 0.7em;
+    position: relative;
+    top: -0.5em;
+  }
+}
+.alerts-form {
+  background: LightGray;
+  text-align: center;
+  padding: 1.5em 15px 2em;
+}
+.alerts-form a {
+  color: Black;
+}
+.alerts-form h3 {
+  margin-bottom: 0.4em;
+}
+.alerts-form label,
+.alerts-form input {
+  display: block;
+  min-width: 270px;
+  margin: 0 10px;
+}
+@media (max-width: 460px) {
+  .alerts-form label,
+  .alerts-form input {
+    margin: 0;
+  }
+}
+.alerts-form label {
+  font-weight: bold;
+  margin-top: 1em;
+}
+@media (max-width: 768px) {
+  .alerts-form label.second {
+    margin-top: 0;
+  }
+}
+.alerts-form input {
+  border: 0;
+  border-bottom: 2px solid Black;
+  height: 1.8em;
+  font-size: 1.2em;
+}
+.form-group {
+  display: inline-block;
+  text-align: left;
+  padding: 0 3px;
+}
+.form-button,
+.button {
+  appearance: none;
+  border: 0;
+  padding: 10px 20px;
+  background: #2fb3da;
+  color: White;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid Black;
+  cursor: pointer;
+}
+.form-button:hover,
+.button:hover {
+  color: inherit;
+  background: #007acc;
+}
+.form-button {
+  padding: 0;
+  margin: 0 10px;
+  height: 2.5em;
+  width: 100%;
+  position: relative;
+  top: -2px;
+}
+@media (max-width: 460px) {
+  .form-button {
+    margin: 0;
+  }
+}
+.recommenders-links {
+  font-size: 19px;
+  line-height: 1.5;
+  font-weight: 200;
+  text-align: left;
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px;
+}
+#books {
+  margin: auto;
+  max-width: 1400px;
+  padding: 0;
+  vertical-align: top;
+}
+.book,
+.book-alert {
+  display: inline-block;
+  overflow: hidden;
+  width: 300px;
+  height: 485px;
+  margin: 15px;
+}
+.book .rank,
+.book-alert .rank {
+  padding-bottom: 5px;
+}
+.book .rank i,
+.book-alert .rank i {
+  font-weight: 400;
+  font-size: 35px;
+}
+.book .rank span,
+.book-alert .rank span {
+  font-weight: 100;
+}
+.book a,
+.book-alert a {
+  text-decoration: none;
+  color: inherit;
+}
+.book .amazon-button,
+.book-alert .amazon-button {
+  display: inline-block;
+  color: White;
+  background: #ffa724;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid Black;
+}
+.book .book-title,
+.book-alert .book-title {
+  margin: 5px 0;
+  color: Black;
+  font-size: 18px;
+  height: 70px;
+  vertical-align: middle;
+}
+.book .book-title .author,
+.book-alert .book-title .author {
+  font-weight: 100;
+  font-size: 14px;
+}
+.book img,
+.book-alert img {
+  width: auto;
+  height: 230px;
+}
+.book .recommenders,
+.book-alert .recommenders {
+  margin-top: 4px;
+  font-weight: 100;
+  font-size: 12px;
+  height: 50px;
+}
+.book .recommenders span,
+.book-alert .recommenders span {
+  display: inline-block;
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 5px;
+}
+.book .tags,
+.book-alert .tags {
+  margin: 5px 0 8px;
+  text-align: center;
+}
+.book .tags .tag,
+.book-alert .tags .tag {
+  display: inline-block;
+  background-color: #ffc0cb;
+  color: #fff;
+  padding: 4px 6px;
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.book-alert p {
+  margin-top: 85px;
+  padding: 15px;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .book-alert {
+    height: 175px;
+  }
+  .book-alert p {
+    margin-top: 40px;
+  }
+}
+.filters {
+  margin: 30px auto 20px auto;
+}
+.filters h3 {
+  padding: 15px;
+  text-align: left;
+  max-width: 1200px;
+  margin: auto;
+}
+.tag-filter {
+  cursor: pointer;
+  display: inline-block;
+  background: #add8e6;
+  padding: 5px 11px;
+  margin: 5px;
+}
+.tag-filter.active {
+  text-decoration: underline;
+}
+footer {
+  clear: both;
+  text-align: center;
+  padding: 3em 2em 8em 2em;
+  min-height: 70%;
+  background: #2fb3da;
+  color: White;
+}
+footer a {
+  color: White;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid White;
+}
+footer h2 {
+  font-size: 2em;
+}
+</style>
   </head>
   <body>
     <header class="title">
