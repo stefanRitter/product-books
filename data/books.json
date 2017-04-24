@@ -207,7 +207,7 @@
     "quoracount": 1,
     "recommends": ["Ken Norton", "Noah Weiss"]
 }, {
-    "title": "The Everything Store: Jeff Bezos and the Age of Amazon",
+    "title": "The Everything Store",
     "author": "Brad Stone",
     "logo": "everythingstore.png",
     "tags": ["biography"],
@@ -464,8 +464,8 @@
     "recommends": []
 }, {
     "title": "The Five Dysfunctions of a Team",
-    "author": "https://www.amazon.com/gp/product/0787960756/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0787960756&linkId=31d6b78f28602a5026167013c1342b1b",
-    "amazonus": " Patrick Lencioni",
+    "amazonus": "https://www.amazon.com/gp/product/0787960756/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0787960756&linkId=31d6b78f28602a5026167013c1342b1b",
+    "author": " Patrick Lencioni",
     "logo": "fivedysfunctions.png",
     "tags": ["leadership"],
     "quoracount": 2,
