@@ -85,7 +85,7 @@ html(lang="en" itemtype="http://schema.org/WebPage" itemscope)
                             if book.recommends.length == 1 
                                 |  1 recommendation: 
                             each name in book.recommends
-                                span.js-filter(data-filter=name.replace(' ', '-'))=name
+                                a(href=recommenders[name] target="_blank")=name
 
             .clear-both
 
