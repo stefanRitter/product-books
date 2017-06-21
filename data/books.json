@@ -79,14 +79,6 @@
     "quoracount": 6,
     "recommends": ["Noah Weiss"]
 }, {
-    "title": "Don't Make Me Think",
-    "author": "Steve Krug",
-    "logo": "dontmakemethink.jpg",
-    "tags": ["design"],
-    "amazonus": "https://www.amazon.com/gp/product/0321965515/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0321965515&linkId=4dce20959bc08524562b4b42cc254297",
-    "quoracount": 4,
-    "recommends": ["Ken Norton", "Simon Cross"]
-}, {
     "title": "Zero to One",
     "author": "Peter Thiel and Blake Masters",
     "logo": "zerotoone.png",
@@ -95,20 +87,20 @@
     "quoracount": 4,
     "recommends": ["Simon Cross", "Tomasz Tunguz"]
 }, {
+    "title": "Don't Make Me Think",
+    "author": "Steve Krug",
+    "logo": "dontmakemethink.jpg",
+    "tags": ["design"],
+    "amazonus": "https://www.amazon.com/gp/product/0321965515/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0321965515&linkId=4dce20959bc08524562b4b42cc254297",
+    "quoracount": 4,
+    "recommends": ["Ken Norton", "Simon Cross"]
+}, {
     "title": "Influence: The Psychology of Persuasion",
     "author": "Robert Cialdini",
     "amazonus": "https://www.amazon.com/gp/product/006124189X/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=006124189X&linkId=2266b62633b39b5f02c2c7936ac8407f",
     "logo": "influence.png",
     "tags": ["communication"],
     "quoracount": 5,
-    "recommends": ["Teresa Torres"]
-}, {
-    "title": "Decisive",
-    "author": "Chip Heath and Dan Heath",
-    "amazonus": "https://www.amazon.com/gp/product/0307956393/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0307956393&linkId=ff13838f72fce0e71c29bf9e51aca4e3",
-    "logo": "decisive.png",
-    "tags": ["leadership"],
-    "quoracount": 4,
     "recommends": ["Teresa Torres"]
 }, {
     "title": "Business Model Generation",
@@ -119,13 +111,13 @@
     "quoracount": 4,
     "recommends": ["Tomasz Tunguz"]
 }, {
-    "title": "Creativity, Inc",
-    "author": "Ed Catmull",
-    "logo": "creativityinc.png",
+    "title": "Decisive",
+    "author": "Chip Heath and Dan Heath",
+    "amazonus": "https://www.amazon.com/gp/product/0307956393/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0307956393&linkId=ff13838f72fce0e71c29bf9e51aca4e3",
+    "logo": "decisive.png",
     "tags": ["leadership"],
-    "amazonus": "https://www.amazon.com/gp/product/0812993012/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0812993012&linkId=0abd2b217b9964b80c60f3d8190cc691",
-    "quoracount": 1,
-    "recommends": ["Ken Norton", "Mark Zuckerberg", "Simon Cross"]
+    "quoracount": 4,
+    "recommends": ["Teresa Torres"]
 }, {
     "title": "Steve Jobs",
     "author": "Walter Isaacson",
@@ -135,13 +127,13 @@
     "quoracount": 1,
     "recommends": ["Bill Gates", "Ken Norton", "Simon Cross"]
 }, {
-    "title": "How to Lie with Statistics",
-    "author": "Darrell Huff",
-    "logo": "liewithstatistics.png",
-    "tags": ["analytics"],
-    "amazonus": "https://www.amazon.com/gp/product/0393310728/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0393310728&linkId=94ec6060c953d55f5fdd4a4f1774314a",
-    "quoracount": 2,
-    "recommends": ["Bill Gates", "Ken Norton"]
+    "title": "Creativity, Inc",
+    "author": "Ed Catmull",
+    "logo": "creativityinc.png",
+    "tags": ["leadership"],
+    "amazonus": "https://www.amazon.com/gp/product/0812993012/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0812993012&linkId=0abd2b217b9964b80c60f3d8190cc691",
+    "quoracount": 1,
+    "recommends": ["Ken Norton", "Mark Zuckerberg", "Simon Cross"]
 }, {
     "title": "Freakonomics",
     "author": "Steven Levitt and Stephen Dubner",
@@ -159,13 +151,13 @@
     "quoracount": 2,
     "recommends": ["Ken Norton", "Simon Cross"]
 }, {
-    "title": "Hooked: How to Build Habit-Forming Products",
-    "author": "Nir Eyal",
-    "logo": "hooked.png",
-    "tags": ["design"],
-    "amazonus": "https://www.amazon.com/gp/product/1591847788/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1591847788&linkId=c9d85b9ecf4c184707655d70d7504d85",
-    "quoracount": 3,
-    "recommends": ["Ken Norton"]
+    "title": "How to Lie with Statistics",
+    "author": "Darrell Huff",
+    "logo": "liewithstatistics.png",
+    "tags": ["analytics"],
+    "amazonus": "https://www.amazon.com/gp/product/0393310728/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0393310728&linkId=94ec6060c953d55f5fdd4a4f1774314a",
+    "quoracount": 2,
+    "recommends": ["Bill Gates", "Ken Norton"]
 }, {
     "title": "Made to Stick",
     "author": "Chip Heath and Dan Heath",
@@ -175,19 +167,27 @@
     "quoracount": 3,
     "recommends": ["Simon Cross"]
 }, {
-    "title": "Drive",
-    "author": "Daniel H. Pink",
-    "amazonus": "https://www.amazon.com/gp/product/1594484805/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1594484805&linkId=689de0d75951d8f751cff9e4ae8e9e97",
-    "logo": "drive.png",
-    "tags": ["communication"],
-    "quoracount": 4,
-    "recommends": []
+    "title": "Hooked: How to Build Habit-Forming Products",
+    "author": "Nir Eyal",
+    "logo": "hooked.png",
+    "tags": ["design"],
+    "amazonus": "https://www.amazon.com/gp/product/1591847788/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1591847788&linkId=c9d85b9ecf4c184707655d70d7504d85",
+    "quoracount": 3,
+    "recommends": ["Ken Norton"]
 }, {
     "title": "The Principles of Product Development Flow",
     "author": "Donald Reinertsen",
     "amazonus": "https://www.amazon.com/gp/product/1935401009/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1935401009&linkId=a5d1bfff9f150829ff277d00c455bf0b",
     "logo": "productflow.png",
     "tags": ["product-management"],
+    "quoracount": 4,
+    "recommends": []
+}, {
+    "title": "Drive",
+    "author": "Daniel H. Pink",
+    "amazonus": "https://www.amazon.com/gp/product/1594484805/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1594484805&linkId=689de0d75951d8f751cff9e4ae8e9e97",
+    "logo": "drive.png",
+    "tags": ["communication"],
     "quoracount": 4,
     "recommends": []
 }, {
@@ -199,13 +199,13 @@
     "quoracount": 1,
     "recommends": ["Noah Weiss", "Simon Cross"]
 }, {
-    "title": "In The Plex: How Google Thinks, Works, and Shapes Our Lives",
-    "author": "Steven Levy",
-    "logo": "intheplex.png",
-    "tags": ["product-management"],
-    "amazonus": "https://www.amazon.com/gp/product/1416596585/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1416596585&linkId=8ff8b8b743289d4a80f58f6721bb93d7",
+    "title": "Predictably Irrational",
+    "author": "Dan Ariely",
+    "logo": "predictablyirrational.png",
+    "tags": ["empathy"],
+    "amazonus": "https://www.amazon.com/gp/product/0061353248/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0061353248&linkId=72a234e4f1bc07e63ac439be73e902f4",
     "quoracount": 1,
-    "recommends": ["Ken Norton", "Noah Weiss"]
+    "recommends": ["Ken Norton", "Simon Cross"]
 }, {
     "title": "Inside the Tornado",
     "author": "Geoffrey Moore",
@@ -215,13 +215,13 @@
     "quoracount": 1,
     "recommends": ["Ken Norton", "Steve Jobs"]
 }, {
-    "title": "Predictably Irrational",
-    "author": "Dan Ariely",
-    "logo": "predictablyirrational.png",
-    "tags": ["empathy"],
-    "amazonus": "https://www.amazon.com/gp/product/0061353248/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0061353248&linkId=72a234e4f1bc07e63ac439be73e902f4",
+    "title": "In The Plex: How Google Thinks, Works, and Shapes Our Lives",
+    "author": "Steven Levy",
+    "logo": "intheplex.png",
+    "tags": ["product-management"],
+    "amazonus": "https://www.amazon.com/gp/product/1416596585/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1416596585&linkId=8ff8b8b743289d4a80f58f6721bb93d7",
     "quoracount": 1,
-    "recommends": ["Ken Norton", "Simon Cross"]
+    "recommends": ["Ken Norton", "Noah Weiss"]
 }, {
     "title": "Getting To Yes & Getting Past No",
     "author": "Roger Fisher and William Ury",
@@ -231,6 +231,14 @@
     "quoracount": 1,
     "recommends": ["Ken Norton", "Simon Cross"]
 }, {
+    "title": "How to Measure Anything",
+    "author": "Douglas Hubbard",
+    "logo": "howtomeasure.png",
+    "tags": ["analytics"],
+    "amazonus": "https://www.amazon.com/gp/product/1118539273/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1118539273&linkId=afdad233a1986d673fa56ece40ad47ae",
+    "quoracount": 2,
+    "recommends": ["Simon Cross"]
+}, {
     "title": "Viral Loop",
     "author": "Adam Penenberg",
     "logo": "viralloop.png",
@@ -239,11 +247,11 @@
     "quoracount": 2,
     "recommends": ["Alex Schultz"]
 }, {
-    "title": "Nudge",
-    "author": "Richard Thaler and Cass Sunstein",
-    "logo": "nudge.png",
-    "tags": ["empathy"],
-    "amazonus": "https://www.amazon.com/gp/product/014311526X/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=014311526X&linkId=fe0044079607ec7113a73fb5fc0ce6e5",
+    "title": "The Lean Product Playbook",
+    "author": "Dan Olsen",
+    "logo": "leanproductplaybook.png",
+    "tags": ["product-management"],
+    "amazonus": "https://www.amazon.com/gp/product/1118960874/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1118960874&linkId=97e99ab5726f594fbc02b97e0fe9c418",
     "quoracount": 2,
     "recommends": ["Ken Norton"]
 }, {
@@ -255,21 +263,21 @@
     "quoracount": 2,
     "recommends": ["Ken Norton"]
 }, {
-    "title": "How to Measure Anything",
-    "author": "Douglas Hubbard",
-    "logo": "howtomeasure.png",
-    "tags": ["analytics"],
-    "amazonus": "https://www.amazon.com/gp/product/1118539273/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1118539273&linkId=afdad233a1986d673fa56ece40ad47ae",
-    "quoracount": 2,
-    "recommends": ["Simon Cross"]
-}, {
-    "title": "The Lean Product Playbook",
-    "author": "Dan Olsen",
-    "logo": "leanproductplaybook.png",
-    "tags": ["product-management"],
-    "amazonus": "https://www.amazon.com/gp/product/1118960874/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1118960874&linkId=97e99ab5726f594fbc02b97e0fe9c418",
+    "title": "Nudge",
+    "author": "Richard Thaler and Cass Sunstein",
+    "logo": "nudge.png",
+    "tags": ["empathy"],
+    "amazonus": "https://www.amazon.com/gp/product/014311526X/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=014311526X&linkId=fe0044079607ec7113a73fb5fc0ce6e5",
     "quoracount": 2,
     "recommends": ["Ken Norton"]
+}, {
+    "title": "Running Lean",
+    "author": "Ash Maurya",
+    "amazonus": "https://www.amazon.com/gp/product/1449305172/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1449305172&linkId=bcae19a7f5dd8b29dc1b8b4b09266f5a",
+    "logo": "runninglean.png",
+    "tags": ["product-management"],
+    "quoracount": 3,
+    "recommends": []
 }, {
     "title": "Agile Product Management with Scrum",
     "author": "Roman Pichler",
@@ -287,19 +295,35 @@
     "quoracount": 3,
     "recommends": []
 }, {
-    "title": "Running Lean",
-    "author": "Ash Maurya",
-    "amazonus": "https://www.amazon.com/gp/product/1449305172/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1449305172&linkId=bcae19a7f5dd8b29dc1b8b4b09266f5a",
-    "logo": "runninglean.png",
-    "tags": ["product-management"],
-    "quoracount": 3,
-    "recommends": []
+    "title": "Only the Paranoid Survive",
+    "author": "Andy Grove",
+    "logo": "paranoidsurvive.png",
+    "tags": ["business"],
+    "amazonus": "https://www.amazon.com/gp/product/0385483821/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0385483821&linkId=85fd1c291bf749975ffeaeb508f5532a",
+    "quoracount": 0,
+    "recommends": ["Ben Horowitz", "Steve Jobs"]
+}, {
+    "title": "My Years with General Motors",
+    "author": "Alfred Sloan",
+    "logo": "myyearswithgm.png",
+    "tags": ["business"],
+    "amazonus": "https://www.amazon.com/gp/product/0385042353/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0385042353&linkId=8bb8d5bdc442bd5ce028171ec9fd2585",
+    "quoracount": 0,
+    "recommends": ["Ben Horowitz", "Bill Gates"]
 }, {
     "title": "The Innovator's Solution",
     "author": "Clayton Christensen",
     "logo": "innovatorssolution.png",
     "tags": ["business"],
     "amazonus": "https://www.amazon.com/gp/product/1422196577/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1422196577&linkId=49b5758a5cc7a4095450c384892c1b0f",
+    "quoracount": 0,
+    "recommends": ["Ken Norton", "Noah Weiss"]
+}, {
+    "title": "On Writing",
+    "author": "Stephen King",
+    "logo": "onwriting.png",
+    "tags": ["communication"],
+    "amazonus": "https://www.amazon.com/gp/product/1439156816/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1439156816&linkId=e5a12da60ad38852f88e9828649a568b",
     "quoracount": 0,
     "recommends": ["Ken Norton", "Noah Weiss"]
 }, {
@@ -311,22 +335,6 @@
     "quoracount": 0,
     "recommends": ["Buffer Blog", "Noah Weiss"]
 }, {
-    "title": "My Years with General Motors",
-    "author": "Alfred Sloan",
-    "logo": "myyearswithgm.png",
-    "tags": ["business"],
-    "amazonus": "https://www.amazon.com/gp/product/0385042353/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0385042353&linkId=8bb8d5bdc442bd5ce028171ec9fd2585",
-    "quoracount": 0,
-    "recommends": ["Ben Horowitz", "Bill Gates"]
-}, {
-    "title": "On Writing",
-    "author": "Stephen King",
-    "logo": "onwriting.png",
-    "tags": ["communication"],
-    "amazonus": "https://www.amazon.com/gp/product/1439156816/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1439156816&linkId=e5a12da60ad38852f88e9828649a568b",
-    "quoracount": 0,
-    "recommends": ["Ken Norton", "Noah Weiss"]
-}, {
     "title": "Mindset: The New Psychology of Success",
     "author": "Carol S. Dweck",
     "logo": "mindset.png",
@@ -335,27 +343,19 @@
     "quoracount": 0,
     "recommends": ["Bill Gates", "Julie Zhuo"]
 }, {
-    "title": "Only the Paranoid Survive",
-    "author": "Andy Grove",
-    "logo": "paranoidsurvive.png",
-    "tags": ["business"],
-    "amazonus": "https://www.amazon.com/gp/product/0385483821/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0385483821&linkId=85fd1c291bf749975ffeaeb508f5532a",
-    "quoracount": 0,
-    "recommends": ["Ben Horowitz", "Steve Jobs"]
-}, {
-    "title": "Fooled by Randomness",
-    "author": "Nassim Nicholas Taleb",
-    "logo": "fooledbyrandomness.png",
-    "tags": ["empathy"],
-    "amazonus": "https://www.amazon.com/gp/product/0812975219/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0812975219&linkId=40d0aa04abc81088b00746c816d21685",
+    "title": "Predictable Revenue",
+    "author": "Aaron Ross and Marylou Tyler",
+    "logo": "predictablerevenue.png",
+    "tags": ["growth"],
+    "amazonus": "https://www.amazon.com/gp/product/0984380213/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0984380213&linkId=eb0f7ace7aec3c0caaf6faa465753f1f",
     "quoracount": 1,
-    "recommends": ["Ben Horowitz"]
+    "recommends": ["Tomasz Tunguz"]
 }, {
-    "title": "Sprint",
-    "author": "Jake Knapp",
-    "logo": "sprint.png",
-    "tags": ["design"],
-    "amazonus": "https://www.amazon.com/gp/product/150112174X/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=150112174X&linkId=2a2175ee2dcc9d9a6777f44b6821def6",
+    "title": "Work Rules!",
+    "author": "Laszlo Bock",
+    "logo": "workrules.png",
+    "tags": ["leadership"],
+    "amazonus": "https://www.amazon.com/gp/product/1455554790/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1455554790&linkId=c7bfd666e3a27ebbbb617ae487287c35",
     "quoracount": 1,
     "recommends": ["Ken Norton"]
 }, {
@@ -367,14 +367,6 @@
     "quoracount": 1,
     "recommends": ["Ken Norton"]
 }, {
-    "title": "Work Rules!",
-    "author": "Laszlo Bock",
-    "logo": "workrules.png",
-    "tags": ["leadership"],
-    "amazonus": "https://www.amazon.com/gp/product/1455554790/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1455554790&linkId=c7bfd666e3a27ebbbb617ae487287c35",
-    "quoracount": 1,
-    "recommends": ["Ken Norton"]
-}, {
     "title": "It's Your Ship",
     "author": "D. Michael Abrashoff",
     "amazonus": "https://www.amazon.com/gp/product/145552302X/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=145552302X&linkId=14522fede2eac048be3e66d13bc4c175",
@@ -382,22 +374,6 @@
     "tags": ["leadership"],
     "quoracount": 1,
     "recommends": ["Simon Cross"]
-}, {
-    "title": "Where Good Ideas Come From",
-    "author": "Steven Johnson",
-    "amazonus": "https://www.amazon.com/gp/product/1594485380/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1594485380&linkId=2526216574cd4414bc6c5be8d821e2b9",
-    "logo": "wheregoodideascomefrom.png",
-    "tags": ["leadership"],
-    "quoracount": 1,
-    "recommends": ["Bill Gates"]
-}, {
-    "title": "Beautiful Evidence",
-    "author": "Edward R. Tufte",
-    "logo": "beautifulevidence.png",
-    "tags": ["analytics"],
-    "amazonus": "https://www.amazon.com/gp/product/0961392177/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0961392177&linkId=c057d870937e5c8e19117e0f0d3afa79",
-    "quoracount": 1,
-    "recommends": ["Noah Weiss"]
 }, {
     "title": "The Halo Effect",
     "author": "Phil Rosenzweig",
@@ -415,22 +391,6 @@
     "quoracount": 1,
     "recommends": ["Ken Norton"]
 }, {
-    "title": "To Sell Is Human",
-    "author": "Daniel H. Pink",
-    "logo": "tosellishuman.png",
-    "tags": ["growth"],
-    "amazonus": "https://www.amazon.com/gp/product/1594631905/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1594631905&linkId=e4ff850ec36f532725d457aef3744861",
-    "quoracount": 1,
-    "recommends": ["Tomasz Tunguz"]
-}, {
-    "title": "Predictable Revenue",
-    "author": "Aaron Ross and Marylou Tyler",
-    "logo": "predictablerevenue.png",
-    "tags": ["growth"],
-    "amazonus": "https://www.amazon.com/gp/product/0984380213/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0984380213&linkId=eb0f7ace7aec3c0caaf6faa465753f1f",
-    "quoracount": 1,
-    "recommends": ["Tomasz Tunguz"]
-}, {
     "title": "Positioning",
     "author": "Al Ries and Jack Trout",
     "logo": "positioning.png",
@@ -438,6 +398,14 @@
     "amazonus": "https://www.amazon.com/gp/product/0071373586/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0071373586&linkId=344c2fa90863df6413ef1d43789e2d19",
     "quoracount": 1,
     "recommends": ["Ken Norton"]
+}, {
+    "title": "Fooled by Randomness",
+    "author": "Nassim Nicholas Taleb",
+    "logo": "fooledbyrandomness.png",
+    "tags": ["empathy"],
+    "amazonus": "https://www.amazon.com/gp/product/0812975219/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0812975219&linkId=40d0aa04abc81088b00746c816d21685",
+    "quoracount": 1,
+    "recommends": ["Ben Horowitz"]
 }, {
     "title": "Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity",
     "author": "Kim Scott",
@@ -447,21 +415,13 @@
     "quoracount": 1,
     "recommends": ["Ken Norton"]
 }, {
-    "title": "Competing Against Luck",
-    "author": "Clayton Christensen",
-    "logo": "competingagainstluck.png",
-    "tags": ["business"],
-    "amazonus": "https://www.amazon.com/gp/product/0062435612/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0062435612&linkId=2aaacb238d6ba12766c30425b2afb20e",
+    "title": "Sprint",
+    "author": "Jake Knapp",
+    "logo": "sprint.png",
+    "tags": ["design"],
+    "amazonus": "https://www.amazon.com/gp/product/150112174X/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=150112174X&linkId=2a2175ee2dcc9d9a6777f44b6821def6",
     "quoracount": 1,
     "recommends": ["Ken Norton"]
-}, {
-    "title": "The Visual Display of Quantitative Information",
-    "author": "Edward R. Tufte",
-    "logo": "visualdisplay.png",
-    "tags": ["analytics"],
-    "amazonus": "https://www.amazon.com/gp/product/0961392142/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0961392142&linkId=e26e4ffd5b29f66cd8ac4c5b90813f9f",
-    "quoracount": 1,
-    "recommends": ["Noah Weiss"]
 }, {
     "title": "The Score Takes Care of Itself",
     "author": "Bill Walsh",
@@ -471,21 +431,45 @@
     "quoracount": 1,
     "recommends": ["Simon Cross"]
 }, {
-    "title": "Dealing with Darwin",
-    "author": "Geoffrey A. Moore",
-    "amazonus": "https://www.amazon.com/gp/product/159184214X/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=159184214X&linkId=6cbb57d1387080660a0df9b9c05522c7",
-    "logo": "dealingwithdarwin.png",
-    "tags": ["leadership"],
-    "quoracount": 2,
-    "recommends": []
+    "title": "The Visual Display of Quantitative Information",
+    "author": "Edward R. Tufte",
+    "logo": "visualdisplay.png",
+    "tags": ["analytics"],
+    "amazonus": "https://www.amazon.com/gp/product/0961392142/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0961392142&linkId=e26e4ffd5b29f66cd8ac4c5b90813f9f",
+    "quoracount": 1,
+    "recommends": ["Noah Weiss"]
 }, {
-    "title": "Decode and Conquer",
-    "author": "Lewis C. Lin",
-    "logo": "decodeandconquer.png",
-    "tags": ["interviewing"],
-    "amazonus": "https://www.amazon.com/gp/product/0615930417/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0615930417&linkId=cdf946451d8c15f4ad951aee8ab4b914",
-    "quoracount": 2,
-    "recommends": []
+    "title": "Competing Against Luck",
+    "author": "Clayton Christensen",
+    "logo": "competingagainstluck.png",
+    "tags": ["business"],
+    "amazonus": "https://www.amazon.com/gp/product/0062435612/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0062435612&linkId=2aaacb238d6ba12766c30425b2afb20e",
+    "quoracount": 1,
+    "recommends": ["Ken Norton"]
+}, {
+    "title": "To Sell Is Human",
+    "author": "Daniel H. Pink",
+    "logo": "tosellishuman.png",
+    "tags": ["growth"],
+    "amazonus": "https://www.amazon.com/gp/product/1594631905/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1594631905&linkId=e4ff850ec36f532725d457aef3744861",
+    "quoracount": 1,
+    "recommends": ["Tomasz Tunguz"]
+}, {
+    "title": "Beautiful Evidence",
+    "author": "Edward R. Tufte",
+    "logo": "beautifulevidence.png",
+    "tags": ["analytics"],
+    "amazonus": "https://www.amazon.com/gp/product/0961392177/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0961392177&linkId=c057d870937e5c8e19117e0f0d3afa79",
+    "quoracount": 1,
+    "recommends": ["Noah Weiss"]
+}, {
+    "title": "Where Good Ideas Come From",
+    "author": "Steven Johnson",
+    "amazonus": "https://www.amazon.com/gp/product/1594485380/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1594485380&linkId=2526216574cd4414bc6c5be8d821e2b9",
+    "logo": "wheregoodideascomefrom.png",
+    "tags": ["leadership"],
+    "quoracount": 1,
+    "recommends": ["Bill Gates"]
 }, {
     "title": "Emotional Design",
     "author": "Don Norman",
@@ -495,11 +479,11 @@
     "quoracount": 2,
     "recommends": []
 }, {
-    "title": "The Inmates Are Running the Asylum",
-    "author": "Alan Cooper",
-    "amazonus": "https://www.amazon.com/gp/product/0672326140/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0672326140&linkId=0f1fd7282b50503633c98c8ec628b3b3",
-    "logo": "inmatesrunningasylum.png",
-    "tags": ["design"],
+    "title": "The Five Dysfunctions of a Team",
+    "amazonus": "https://www.amazon.com/gp/product/0787960756/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0787960756&linkId=31d6b78f28602a5026167013c1342b1b",
+    "author": "Patrick Lencioni",
+    "logo": "fivedysfunctions.png",
+    "tags": ["leadership"],
     "quoracount": 2,
     "recommends": []
 }, {
@@ -508,22 +492,6 @@
     "amazonus": "https://www.amazon.com/gp/product/0321437292/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0321437292&linkId=d7d725c3c61fe99186745043e9a38857",
     "logo": "innovationgames.png",
     "tags": ["design"],
-    "quoracount": 2,
-    "recommends": []
-}, {
-    "title": "What Customers Want",
-    "author": "Anthony Ulwick",
-    "amazonus": "https://www.amazon.com/gp/product/0071408673/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0071408673&linkId=0bb26c7a56e60393f5381f1fae583e60",
-    "logo": "whatcustomerswant.png",
-    "tags": ["empathy"],
-    "quoracount": 2,
-    "recommends": []
-}, {
-    "title": "The Five Dysfunctions of a Team",
-    "amazonus": "https://www.amazon.com/gp/product/0787960756/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0787960756&linkId=31d6b78f28602a5026167013c1342b1b",
-    "author": "Patrick Lencioni",
-    "logo": "fivedysfunctions.png",
-    "tags": ["leadership"],
     "quoracount": 2,
     "recommends": []
 }, {
@@ -539,6 +507,46 @@
     "author": "Kathy Sierra",
     "amazonus": "https://www.amazon.com/gp/product/1491919019/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1491919019&linkId=7edb1da9ec7bc1ab03fdac59dd135a1f",
     "logo": "badass.png",
+    "tags": ["design"],
+    "quoracount": 2,
+    "recommends": []
+}, {
+    "title": "Elon Musk",
+    "author": "Ashlee Vance",
+    "logo": "elonmusk.jpg",
+    "tags": ["biography"],
+    "amazonus": "",
+    "quoracount": 2,
+    "recommends": []
+}, {
+    "title": "What Customers Want",
+    "author": "Anthony Ulwick",
+    "amazonus": "https://www.amazon.com/gp/product/0071408673/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0071408673&linkId=0bb26c7a56e60393f5381f1fae583e60",
+    "logo": "whatcustomerswant.png",
+    "tags": ["empathy"],
+    "quoracount": 2,
+    "recommends": []
+}, {
+    "title": "Decode and Conquer",
+    "author": "Lewis C. Lin",
+    "logo": "decodeandconquer.png",
+    "tags": ["interviewing"],
+    "amazonus": "https://www.amazon.com/gp/product/0615930417/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0615930417&linkId=cdf946451d8c15f4ad951aee8ab4b914",
+    "quoracount": 2,
+    "recommends": []
+}, {
+    "title": "Dealing with Darwin",
+    "author": "Geoffrey A. Moore",
+    "amazonus": "https://www.amazon.com/gp/product/159184214X/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=159184214X&linkId=6cbb57d1387080660a0df9b9c05522c7",
+    "logo": "dealingwithdarwin.png",
+    "tags": ["leadership"],
+    "quoracount": 2,
+    "recommends": []
+}, {
+    "title": "The Inmates Are Running the Asylum",
+    "author": "Alan Cooper",
+    "amazonus": "https://www.amazon.com/gp/product/0672326140/ref=as_li_tl?ie=UTF8&tag=productbook0a-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0672326140&linkId=0f1fd7282b50503633c98c8ec628b3b3",
+    "logo": "inmatesrunningasylum.png",
     "tags": ["design"],
     "quoracount": 2,
     "recommends": []
