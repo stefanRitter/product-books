@@ -1,4 +1,25 @@
 [{
+    "title": "Grit",
+    "author": "Angela Duckworth",
+    "logo": ".png",
+    "tags": ["communication"],
+    "quoracount": 0,
+    "recommends": ["Ameet Ranadive"]
+}, {
+    "title": "Start with Why",
+    "author": "Simon Sisnek",
+    "logo": ".png",
+    "tags": ["communication"],
+    "quoracount": 0,
+    "recommends": ["Ameet Ranadive"]
+}, {
+    "title": "Learned Optimism",
+    "author": "Martin Seligman",
+    "logo": ".png",
+    "tags": ["communication"],
+    "quoracount": 0,
+    "recommends": ["Ameet Ranadive"]
+}, {
     "title": "Business Adventures",
     "author": "John Brooks",
     "logo": "businessadventures.png",
